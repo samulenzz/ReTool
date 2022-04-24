@@ -1,0 +1,4 @@
+The following problem is supposed to be the participants of the Dagstuhl Meeting .
+It is important that the program works correctly because the quantity of water present when the steam - boiler is working has to be neither too low nor to high ; otherwise the steam - boiler or the turbine sitting in front of it might be seriously affected .
+You might also judge that the speci cation contains some loose ends and inconsistencies .
+He may or may not go there .

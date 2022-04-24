@@ -1,0 +1,7 @@
+PROJECT_MANAGER_URL = 'http://localhost:5002'
+GRPC_SERVER_ADDRESS = '52.81.207.60:50051'
+
+MONGODB_URL = "mongodb://localhost:27017/"
+
+PORT = 5003
+IS_DEBUG = True
