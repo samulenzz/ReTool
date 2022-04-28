@@ -1,0 +1,32 @@
+syntax = "proto3";
+option java_package = "Beihang.NLP";
+
+message ReSplitValue {
+    string value = 1;
+    string value1 = 2;
+}
+
+message ReValue {
+    string value = 1;
+    string value1 = 2;
+    string value2 = 3;
+}
+
+message synValue {
+    string value = 1;
+    string value1 = 2;
+}
+
+message Value {
+    string value = 1;
+}
+
+service Requirement{
+    rpc Itemized(ReSplitValue) returns (ReSplitValue) {}
+    rpc Relate_Re_Sugg(ReValue) returns (ReValue) {}
+    rpc GetChSyn(synValue) returns (synValue) {}
+    rpc structurization(Value) returns (Value) {}
+    rpc conflictdetect(Value) returns (Value) {}
+    rpc relationship(Value) returns (Value) {}
+    rpc similarity(Value) returns (Value) {}
+}
