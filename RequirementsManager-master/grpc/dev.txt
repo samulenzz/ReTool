@@ -1,0 +1,18 @@
+# 安装依赖
+brew install grpc
+
+pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install grpcio
+pip3 install protobuf
+pip3 install psutil
+pip3 install requests
+pip3 install jieba
+pip3 install gensim
+
+pip3 install grpcio-tools
+
+# 修改Proto配置
+python -m grpc_tools.protoc -I=Proto --python_out=Proto --grpc_python_out=Proto Proto/Requirement.proto
+# 修改一下import导入
+
+# 开发Server.py, 增添similariy
