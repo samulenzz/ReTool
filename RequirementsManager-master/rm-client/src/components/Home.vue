@@ -50,46 +50,6 @@
             </template>
           </el-menu-item>
         </el-submenu>
-        <!--模板管理一级菜单-->
-        <el-submenu index="3">
-          <template slot="title">
-            <i class="el-icon-files"></i>
-            <span>模板管理</span>
-          </template>
-          <!-- 二级菜单 -->
-          <el-menu-item index="/templates/templateList"  @click="saveNavStatus('/templates/templateList')">
-            <template>
-              <i class="el-icon-menu"></i>
-              <span>模板列表</span>
-            </template>
-          </el-menu-item>
-        </el-submenu>
-        <el-submenu index="4">
-          <template slot="title">
-            <i class="el-icon-files"></i>
-            <span>文档管理</span>
-          </template>
-          <el-menu-item index="/templates/documentList"  @click="saveNavStatus('/templates/documentList')">
-            <template>
-              <i class="el-icon-menu"></i>
-              <span>文档列表</span>
-            </template>
-          </el-menu-item>
-        </el-submenu>
-        <!-- 工具箱一级菜单 -->
-        <el-submenu index="5">
-          <template slot="title">
-            <i class="el-icon-setting"></i>
-            <span>工具箱</span>
-          </template>
-          <!-- 二级菜单 -->
-          <el-menu-item index="/tools/fileList"  @click="saveNavStatus('/tools/fileList')">
-            <template>
-              <i class="el-icon-menu"></i>
-              <span>模糊检测</span>
-            </template>
-          </el-menu-item>
-        </el-submenu>
       </el-menu>
     </el-aside>
     <!-- 主体区 -->
