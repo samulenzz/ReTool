@@ -1,4 +1,5 @@
 from usermanager.api.login import login
+from usermanager.api.register import register
 from usermanager.api.user.create import user_create
 from usermanager.api.user.delete import user_delete
 from usermanager.api.user.edit import user_edit
