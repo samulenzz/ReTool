@@ -25,8 +25,8 @@
     </div>
 
     <!-- 对话框区 -->
-    <!-- 添加用户对话框 -->
-    <el-dialog title="添加用户" :visible.sync="dialogVisiable.register" width="30%">
+    <!-- 用户注册对话框 -->
+    <el-dialog title="用户注册" :visible.sync="dialogVisiable.register" width="30%">
       <el-form label-position="right" label-width="80px" :model="userForm"
         ref="registerFormRef" :rules="userFormRules">
         <el-form-item label="用户名" prop="username">
@@ -38,7 +38,7 @@
         <el-form-item label="邮箱" prop="email">
           <el-input v-model="userForm.email" placeholder="请输入邮箱（可选）"></el-input>
         </el-form-item>
-        <el-form-item label="邮箱" prop="phone_number">
+        <el-form-item label="电话" prop="phone_number">
           <el-input v-model="userForm.phone_number" placeholder="请输入电话（可选）"></el-input>
         </el-form-item>
       </el-form>
@@ -54,6 +54,28 @@
 <script>
 export default {
   data () {
+    var validateMobilePhone = (rule, value, callback) => {
+      if (value !== '') {
+        var reg = /^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/
+        if (!reg.test(value)) {
+          callback(new Error('请输入正确的手机号或者座机号格式为：0000-0000000'))
+        } else {
+          callback()
+        }
+      }
+      callback()
+    }
+    var validateEmail = (rule, value, callback) => {
+      if (value !== '') {
+        var reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+        if (!reg.test(value)) {
+          callback(new Error('请输入有效的邮箱'))
+        } else {
+          callback()
+        }
+      }
+      callback()
+    }
     return {
       // 对话框是否可见
       dialogVisiable: {
@@ -76,10 +98,12 @@ export default {
           { min: 6, max: 16, message: '密码长度在 6 到 16 个字符', trigger: 'blur' }
         ],
         email: [
-          { required: false }
+          { required: false },
+          { validator: validateEmail, trigger: 'blur' }
         ],
         phone_number: [
-          { required: false }
+          { required: false },
+          { validator: validateMobilePhone, trigger: 'blur' }
         ]
       },
       // 登录表单的数据对象

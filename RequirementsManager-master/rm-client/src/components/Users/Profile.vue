@@ -38,7 +38,7 @@ export default {
       if (!value) {
         callback()
       } else {
-        const reg = /^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$/
+        const reg = /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
         const email = reg.test(value)
         if (!email) {
           callback(new Error('邮箱格式如:admin@163.com'))
