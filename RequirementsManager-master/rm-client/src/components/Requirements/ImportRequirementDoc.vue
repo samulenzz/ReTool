@@ -236,7 +236,7 @@ export default {
         this.requirementTree = []
         this.currentItemizeTag = ''
         this.activeIndex = '1'
-        console.log(this.uploadFileToken)
+        // console.log(this.uploadFileToken)
       } else {
         this.$message.error(res.meta.msg)
         this.currentUploadFileTag = '上传失败'

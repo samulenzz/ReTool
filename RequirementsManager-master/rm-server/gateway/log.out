@@ -1,0 +1,1621 @@
+nohup: ignoring input
+ * Serving Flask app 'gateway.app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:6000 (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-187-554
+127.0.0.1 - - [04/May/2022 15:29:43] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:30:36] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:30:42] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:30:51] "POST /login HTTP/1.0" 200 -
+ * Detected change in '/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/usermanager/usermanager/config.py', reloading
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+HTTPConnectionPool(host='localhost', port=6001): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f606c737e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+HTTPConnectionPool(host='localhost', port=6001): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f606d78ab50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+HTTPConnectionPool(host='localhost', port=6001): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f606c755e80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+HTTPConnectionPool(host='localhost', port=6001): Max retries exceeded with url: /login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f606c6c1c70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-187-554
+ * Detected change in '/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/projectmanager/projectmanager/config.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-187-554
+ * Detected change in '/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/config.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-187-554
+127.0.0.1 - - [04/May/2022 15:37:02] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:07] "GET /user/list HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:26] "GET /project/list?username=admin HTTP/1.0" 200 -
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+{'data': {'token': 'u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE='}, 'meta': {'status': 200, 'msg': '登录成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'username': 'admin', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': 'changliu', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': '张三', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': '李四', 'system_role': '系统用户', 'email': 'example@qq.com', 'phone_number': '123456789'}], 'meta': {'status': 200, 'msg': '成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+[Errno Expecting value] <!doctype html>
+<html lang=en>
+  <head>
+    <title>AttributeError: 'NoneType' object has no attribute 'get_elementui_tree'
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "vrVjbMg1rJLq1HulJycg";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>AttributeError</h1>
+<div class="detail">
+  <p class="errormsg">AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-140082563844352">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2095</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555296000">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2080</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555296112">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555315472">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2077</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555315584">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1525</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555315696">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555315808">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1523</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555315920">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1509</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555316032">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py"</cite>,
+      line <em class="line">44</em>,
+      in <code class="function">_func</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">                    </span>)</pre>
+<pre class="line before"><span class="ws">                    </span>if not is_access:</pre>
+<pre class="line before"><span class="ws">                        </span>return {</pre>
+<pre class="line before"><span class="ws">                            </span>&#x27;meta&#x27;: META_ERROR_NO_ACCESS</pre>
+<pre class="line before"><span class="ws">                        </span>}</pre>
+<pre class="line current"><span class="ws">            </span>return func()</pre>
+<pre class="line after"><span class="ws">        </span>return _func</pre>
+<pre class="line after"><span class="ws">    </span>return _wrapper</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555316704">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py"</cite>,
+      line <em class="line">17</em>,
+      in <code class="function">_func</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span>def handle_response(func: Callable):</pre>
+<pre class="line before"><span class="ws">    </span>@wraps(func)</pre>
+<pre class="line before"><span class="ws">    </span>def _func():</pre>
+<pre class="line current"><span class="ws">        </span>resp = func()</pre>
+<pre class="line after"><span class="ws">        </span># 对结果进行排序</pre>
+<pre class="line after"><span class="ws">        </span>r=Response(json.dumps(resp), mimetype=&#x27;application/json&#x27;)</pre>
+<pre class="line after"><span class="ws">        </span>return r</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return _func</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555316816">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py"</cite>,
+      line <em class="line">29</em>,
+      in <code class="function">requirement_tree_list</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">        </span>requirement_tree_collection</pre>
+<pre class="line before"><span class="ws">    </span>)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>tree = requirement_tree_dao.get(project_id)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line current"><span class="ws">    </span>resp_data = tree.get_elementui_tree()</pre>
+<pre class="line after"><span class="ws">    </span>add_section_number(resp_data, 1)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return {</pre>
+<pre class="line after"><span class="ws">        </span>&#x27;meta&#x27;: META_SUCCESS,</pre>
+<pre class="line after"><span class="ws">        </span>&#x27;data&#x27;: resp_data</pre></div>
+</div>
+</ul>
+  <blockquote>AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py&quot;, line 44, in _func
+    return func()
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py&quot;, line 17, in _func
+    resp = func()
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py&quot;, line 29, in requirement_tree_list
+    resp_data = tree.get_elementui_tree()
+AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py", line 44, in _func
+    return func()
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py", line 17, in _func
+    resp = func()
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py", line 29, in requirement_tree_list
+    resp_data = tree.get_elementui_tree()
+AttributeError: 'NoneType' object has no attribute 'get_elementui_tree'
+
+
+-->
+: 0127.0.0.1 - - [04/May/2022 15:37:27] "GET /requirement/tree/list?project_id=3c00939acb7a11ecbcb33c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:32] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:45] "POST /requirement/create HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:45] "GET /requirement/tree/list?project_id=3c00939acb7a11ecbcb33c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:45] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:37:45] "GET /requirement/profile?requirement_id=16afe2c5cb7d11ec83173c7c3f2b2c02 HTTP/1.0" 200 -
+
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 251
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"project_id":"3c00939acb7a11ecbcb33c7c3f2b2c02","base_id":"2","location":"inner","name":"test","description":"test","status":"\xe8\xbf\x9b\xe8\xa1\x8c\xe4\xb8\xad","priority":"\xe9\xab\x98","expected_start_time":"2022-04-30T16:00:00.000Z","expected_end_time":"2022-05-05T16:00:00.000Z"}'
+{'meta': {'status': 200, 'msg': '创建成功！'}, 'data': {'requirement_id': '16afe2c5cb7d11ec83173c7c3f2b2c02'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': [{'_id': '2', 'label': '1 功能需求', 'children': [{'_id': '16afe2c5cb7d11ec83173c7c3f2b2c02', 'label': '1.1 test', 'children': []}]}, {'_id': '3', 'label': '2 性能需求', 'children': []}, {'_id': '4', 'label': '3 可靠性需求', 'children': []}, {'_id': '7', 'label': '4 安全性需求', 'children': []}]}
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': {'_id': '16afe2c5cb7d11ec83173c7c3f2b2c02', 'project_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'name': 'test', 'description': 'test', '_type': '2', 'status': '进行中', 'priority': '高', 'expected_start_time': '2022-04-30T16:00:00.000Z', 'expected_end_time': '2022-05-05T16:00:00.000Z', 'author': 'admin', 'created_time': '2022-05-04 15:37:45', 'last_modify_time': '2022-05-04 15:37:45', 'track_code': None, 'track_test': None, 'track_people': None}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 206
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"3c00939acb7a11ecbcb33c7c3f2b2c02","version":null},"target_type":"edit_single","target_data":{"_id":"16afe2c5cb7d11ec83173c7c3f2b2c02","name":"test","description":"test","_type":"2"}}'
+[Errno Expecting value] <!doctype html>
+<html lang=en>
+  <head>
+    <title>grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1651649896.324178574","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3217,"referenced_errors":[{"created":"@1651649896.324177032","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":165,"grpc_status":14}]}"
+>
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "vrVjbMg1rJLq1HulJycg";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>_InactiveRpcError</h1>
+<div class="detail">
+  <p class="errormsg">grpc._channel._InactiveRpcError: &lt;_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = &quot;failed to connect to all addresses&quot;
+	debug_error_string = &quot;{&quot;created&quot;:&quot;@1651649896.324178574&quot;,&quot;description&quot;:&quot;Failed to pick subchannel&quot;,&quot;file&quot;:&quot;src/core/ext/filters/client_channel/client_channel.cc&quot;,&quot;file_line&quot;:3217,&quot;referenced_errors&quot;:[{&quot;created&quot;:&quot;@1651649896.324177032&quot;,&quot;description&quot;:&quot;failed to connect to all addresses&quot;,&quot;file&quot;:&quot;src/core/lib/transport/error_utils.cc&quot;,&quot;file_line&quot;:165,&quot;grpc_status&quot;:14}]}&quot;
+&gt;
+</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-140082555071504">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2095</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071056">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2080</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071392">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071728">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2077</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071168">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1525</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071616">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071280">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1523</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071840">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1509</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555071952">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py"</cite>,
+      line <em class="line">17</em>,
+      in <code class="function">_func</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span>def handle_response(func: Callable):</pre>
+<pre class="line before"><span class="ws">    </span>@wraps(func)</pre>
+<pre class="line before"><span class="ws">    </span>def _func():</pre>
+<pre class="line current"><span class="ws">        </span>resp = func()</pre>
+<pre class="line after"><span class="ws">        </span># 对结果进行排序</pre>
+<pre class="line after"><span class="ws">        </span>r=Response(json.dumps(resp), mimetype=&#x27;application/json&#x27;)</pre>
+<pre class="line after"><span class="ws">        </span>return r</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return _func</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082555072064">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/analyze/conflict.py"</cite>,
+      line <em class="line">64</em>,
+      in <code class="function">requirement_analyze_conflict</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span># 合并成一个dict，转换成列表，调用grpc获取结果</pre>
+<pre class="line before"><span class="ws">    </span>sum_reqs_dict = dict(compared_reqs_dict, **target_reqs_dict)</pre>
+<pre class="line before"><span class="ws">    </span>sum_reqs_list = [req for req in sum_reqs_dict.values()]</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span># 调用grpc</pre>
+<pre class="line current"><span class="ws">    </span>resp = GrpcClient().conflictdetect(json.dumps({&#x27;items&#x27;: sum_reqs_list}))</pre>
+<pre class="line after"><span class="ws">    </span>resp = json.loads(resp)</pre>
+<pre class="line after"><span class="ws">    </span>print(resp)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span># wrap 返回结果</pre>
+<pre class="line after"><span class="ws">    </span>res = []</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082546238848">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/grpc_client/client.py"</cite>,
+      line <em class="line">36</em>,
+      in <code class="function">conflictdetect</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def conflictdetect(self, data: str):</pre>
+<pre class="line before"><span class="ws">        </span>channel = grpc.insecure_channel(self.address)</pre>
+<pre class="line before"><span class="ws">        </span>stub = Requirement_pb2_grpc.RequirementStub(channel)</pre>
+<pre class="line before"><span class="ws">        </span>value = Requirement_pb2.Value(value=data)</pre>
+<pre class="line current"><span class="ws">        </span>response = stub.conflictdetect(value)</pre>
+<pre class="line after"><span class="ws">        </span>return response.value</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def relationship(self, data: str):</pre>
+<pre class="line after"><span class="ws">        </span>channel = grpc.insecure_channel(self.address)</pre>
+<pre class="line after"><span class="ws">        </span>stub = Requirement_pb2_grpc.RequirementStub(channel)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082546240976">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py"</cite>,
+      line <em class="line">946</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                 </span>credentials=None,</pre>
+<pre class="line before"><span class="ws">                 </span>wait_for_ready=None,</pre>
+<pre class="line before"><span class="ws">                 </span>compression=None):</pre>
+<pre class="line before"><span class="ws">        </span>state, call, = self._blocking(request, timeout, metadata, credentials,</pre>
+<pre class="line before"><span class="ws">                                      </span>wait_for_ready, compression)</pre>
+<pre class="line current"><span class="ws">        </span>return _end_unary_response_blocking(state, call, False, None)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def with_call(self,</pre>
+<pre class="line after"><span class="ws">                  </span>request,</pre>
+<pre class="line after"><span class="ws">                  </span>timeout=None,</pre>
+<pre class="line after"><span class="ws">                  </span>metadata=None,</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140082546396288">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py"</cite>,
+      line <em class="line">849</em>,
+      in <code class="function">_end_unary_response_blocking</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>rendezvous = _MultiThreadedRendezvous(state, call, None, deadline)</pre>
+<pre class="line before"><span class="ws">            </span>return state.response, rendezvous</pre>
+<pre class="line before"><span class="ws">        </span>else:</pre>
+<pre class="line before"><span class="ws">            </span>return state.response</pre>
+<pre class="line before"><span class="ws">    </span>else:</pre>
+<pre class="line current"><span class="ws">        </span>raise _InactiveRpcError(state)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws"></span>def _stream_unary_invocation_operationses(metadata, initial_metadata_flags):</pre>
+<pre class="line after"><span class="ws">    </span>return (</pre>
+<pre class="line after"><span class="ws">        </span>(</pre></div>
+</div>
+</ul>
+  <blockquote>grpc._channel._InactiveRpcError: &lt;_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = &quot;failed to connect to all addresses&quot;
+	debug_error_string = &quot;{&quot;created&quot;:&quot;@1651649896.324178574&quot;,&quot;description&quot;:&quot;Failed to pick subchannel&quot;,&quot;file&quot;:&quot;src/core/ext/filters/client_channel/client_channel.cc&quot;,&quot;file_line&quot;:3217,&quot;referenced_errors&quot;:[{&quot;created&quot;:&quot;@1651649896.324177032&quot;,&quot;description&quot;:&quot;failed to connect to all addresses&quot;,&quot;file&quot;:&quot;src/core/lib/transport/error_utils.cc&quot;,&quot;file_line&quot;:165,&quot;grpc_status&quot;:14}]}&quot;
+&gt;
+</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py&quot;, line 17, in _func
+    resp = func()
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/analyze/conflict.py&quot;, line 64, in requirement_analyze_conflict
+    resp = GrpcClient().conflictdetect(json.dumps({&#x27;items&#x27;: sum_reqs_list}))
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/grpc_client/client.py&quot;, line 36, in conflictdetect
+    response = stub.conflictdetect(value)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py&quot;, line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py&quot;, line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: &lt;_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = &quot;failed to connect to all addresses&quot;
+	debug_error_string = &quot;{&quot;created&quot;:&quot;@1651649896.324178574&quot;,&quot;description&quot;:&quot;Failed to pick subchannel&quot;,&quot;file&quot;:&quot;src/core/ext/filters/client_channel/client_channel.cc&quot;,&quot;file_line&quot;:3217,&quot;referenced_errors&quot;:[{&quot;created&quot;:&quot;@1651649896.324177032&quot;,&quot;description&quot;:&quot;failed to connect to all addresses&quot;,&quot;file&quot;:&quot;src/core/lib/transport/error_utils.cc&quot;,&quot;file_line&quot;:165,&quot;grpc_status&quot;:14}]}&quot;
+&gt;
+</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py", line 17, in _func
+    resp = func()
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/analyze/conflict.py", line 64, in requirement_analyze_conflict
+    resp = GrpcClient().conflictdetect(json.dumps({'items': sum_reqs_list}))
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/grpc_client/client.py", line 36, in conflictdetect
+    response = stub.conflictdetect(value)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses"
+	debug_error_string = "{"created":"@1651649896.324178574","description":"Failed to pick subchannel","file":"src/core/ext/filters/client_channel/client_channel.cc","file_line":3217,"referenced_errors":[{"created":"@1651649896.324177032","description":"failed to connect to all addresses","file":"src/core/lib/transport/error_utils.cc","file_line":165,"grpc_status":14}]}"
+>
+
+
+-->
+: 0127.0.0.1 - - [04/May/2022 15:38:16] "POST /requirement/analyze/conflict HTTP/1.0" 200 -
+ * Detected change in '/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/config.py', reloading
+
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-187-554
+127.0.0.1 - - [04/May/2022 15:39:42] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:39:44] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:39:59] "POST /login HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:01] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:03] "GET /requirement/tree/list?project_id=3c00939acb7a11ecbcb33c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:06] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:06] "GET /requirement/profile?requirement_id=16afe2c5cb7d11ec83173c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:07] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:18] "POST /requirement/create HTTP/1.0" 200 -
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'meta': {'status': 401, 'msg': '身份认证失败！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: u1T7N5I+V4MPyvaqS3kE10+5TZjPpnvhIJthx2g7hAE=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'meta': {'status': 401, 'msg': '身份认证失败！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 40
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"username":"admin","password":"123456"}'
+{'data': {'token': 'G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ='}, 'meta': {'status': 200, 'msg': '登录成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': [{'_id': '2', 'label': '1 功能需求', 'children': [{'_id': '16afe2c5cb7d11ec83173c7c3f2b2c02', 'label': '1.1 test', 'children': []}]}, {'_id': '3', 'label': '2 性能需求', 'children': []}, {'_id': '4', 'label': '3 可靠性需求', 'children': []}, {'_id': '7', 'label': '4 安全性需求', 'children': []}]}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': {'_id': '16afe2c5cb7d11ec83173c7c3f2b2c02', 'project_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'name': 'test', 'description': 'test', '_type': '2', 'status': '进行中', 'priority': '高', 'expected_start_time': '2022-04-30T16:00:00.000Z', 'expected_end_time': '2022-05-05T16:00:00.000Z', 'author': 'admin', 'created_time': '2022-05-04 15:37:45', 'last_modify_time': '2022-05-04 15:37:45', 'track_code': None, 'track_test': None, 'track_people': None}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 284
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"project_id":"3c00939acb7a11ecbcb33c7c3f2b2c02","base_id":"16afe2c5cb7d11ec83173c7c3f2b2c02","location":"after","name":"test2","description":"test2","status":"\xe6\x9c\xaa\xe5\xbc\x80\xe5\xa7\x8b","priority":"\xe9\xab\x98","expected_start_time":"2022-04-30T16:00:00.000Z","expected_end_time":"2022-05-08T16:00:00.000Z"}'
+{'meta': {'status': 200, 'msg': '创建成功！'}, 'data': {'requirement_id': '71d4c76ccb7d11ec90fd3c7c3f2b2c02'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+127.0.0.1 - - [04/May/2022 15:40:18] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:18] "GET /requirement/tree/list?project_id=3c00939acb7a11ecbcb33c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:18] "GET /requirement/profile?requirement_id=71d4c76ccb7d11ec90fd3c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:28] "POST /requirement/analyze/conflict HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:40:37] "POST /requirement/analyze/relationship HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:41:34] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:41:36] "GET /user/list HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:41:45] "POST /project/create HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:41:45] "GET /project/list?username=admin HTTP/1.0" 200 -
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': [{'_id': '2', 'label': '1 功能需求', 'children': [{'_id': '16afe2c5cb7d11ec83173c7c3f2b2c02', 'label': '1.1 test', 'children': []}, {'_id': '71d4c76ccb7d11ec90fd3c7c3f2b2c02', 'label': '1.2 test2', 'children': []}]}, {'_id': '3', 'label': '2 性能需求', 'children': []}, {'_id': '4', 'label': '3 可靠性需求', 'children': []}, {'_id': '7', 'label': '4 安全性需求', 'children': []}]}
+{'meta': {'status': 200, 'msg': '获取成功！'}, 'data': {'_id': '71d4c76ccb7d11ec90fd3c7c3f2b2c02', 'project_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'name': 'test2', 'description': 'test2', '_type': '2', 'status': '未开始', 'priority': '高', 'expected_start_time': '2022-04-30T16:00:00.000Z', 'expected_end_time': '2022-05-08T16:00:00.000Z', 'author': 'admin', 'created_time': '2022-05-04 15:40:18', 'last_modify_time': '2022-05-04 15:40:18', 'track_code': None, 'track_test': None, 'track_people': None}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 208
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"3c00939acb7a11ecbcb33c7c3f2b2c02","version":null},"target_type":"edit_single","target_data":{"_id":"71d4c76ccb7d11ec90fd3c7c3f2b2c02","name":"test2","description":"test2","_type":"2"}}'
+{'meta': {'status': 200, 'msg': '冲突检测成功！'}, 'data': []}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 208
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"3c00939acb7a11ecbcb33c7c3f2b2c02","version":null},"target_type":"edit_single","target_data":{"_id":"71d4c76ccb7d11ec90fd3c7c3f2b2c02","name":"test2","description":"test2","_type":"2"}}'
+{'meta': {'status': 200, 'msg': '关联关系分析成功！'}, 'data': []}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'username': 'admin', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': 'changliu', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': '张三', 'system_role': '系统管理员', 'email': 'example@qq.com', 'phone_number': '123456789'}, {'username': '李四', 'system_role': '系统用户', 'email': 'example@qq.com', 'phone_number': '123456789'}], 'meta': {'status': 200, 'msg': '成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 126
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"project_name":"test","description":"test","status":"\xe8\xbf\x9b\xe8\xa1\x8c\xe4\xb8\xad","users":[{"username":"admin","project_role":"\xe9\xa1\xb9\xe7\x9b\xae\xe7\xbb\x8f\xe7\x90\x86"}]}'
+{'meta': {'status': 200, 'msg': '创建成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}, {'_id': 'a5fbd4bacb7d11ec8e723c7c3f2b2c02', 'project_name': 'test', 'description': 'test', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+[Errno Expecting value] <!doctype html>
+<html lang=en>
+  <head>
+    <title>AttributeError: 'NoneType' object has no attribute 'get_elementui_tree'
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "CLSXWlw7QHcWKo0QHEE6";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>AttributeError</h1>
+<div class="detail">
+  <p class="errormsg">AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-140387670811024">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2095</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653722288">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2080</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653722400">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725312">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">2077</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725424">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1525</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725536">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">165</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><span class="ws">        </span>if options.get(&#x27;intercept_exceptions&#x27;, True):</pre>
+<pre class="line before"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">            </span>if hasattr(app, &#x27;handle_exception&#x27;):</pre>
+<pre class="line after"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725648">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1523</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725760">
+  <h4>File <cite class="filename">"/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py"</cite>,
+      line <em class="line">1509</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653725872">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py"</cite>,
+      line <em class="line">44</em>,
+      in <code class="function">_func</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">                    </span>)</pre>
+<pre class="line before"><span class="ws">                    </span>if not is_access:</pre>
+<pre class="line before"><span class="ws">                        </span>return {</pre>
+<pre class="line before"><span class="ws">                            </span>&#x27;meta&#x27;: META_ERROR_NO_ACCESS</pre>
+<pre class="line before"><span class="ws">                        </span>}</pre>
+<pre class="line current"><span class="ws">            </span>return func()</pre>
+<pre class="line after"><span class="ws">        </span>return _func</pre>
+<pre class="line after"><span class="ws">    </span>return _wrapper</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653751184">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py"</cite>,
+      line <em class="line">17</em>,
+      in <code class="function">_func</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span>def handle_response(func: Callable):</pre>
+<pre class="line before"><span class="ws">    </span>@wraps(func)</pre>
+<pre class="line before"><span class="ws">    </span>def _func():</pre>
+<pre class="line current"><span class="ws">        </span>resp = func()</pre>
+<pre class="line after"><span class="ws">        </span># 对结果进行排序</pre>
+<pre class="line after"><span class="ws">        </span>r=Response(json.dumps(resp), mimetype=&#x27;application/json&#x27;)</pre>
+<pre class="line after"><span class="ws">        </span>return r</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return _func</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140387653751296">
+  <h4>File <cite class="filename">"/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py"</cite>,
+      line <em class="line">29</em>,
+      in <code class="function">requirement_tree_list</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">        </span>requirement_tree_collection</pre>
+<pre class="line before"><span class="ws">    </span>)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>tree = requirement_tree_dao.get(project_id)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line current"><span class="ws">    </span>resp_data = tree.get_elementui_tree()</pre>
+<pre class="line after"><span class="ws">    </span>add_section_number(resp_data, 1)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return {</pre>
+<pre class="line after"><span class="ws">        </span>&#x27;meta&#x27;: META_SUCCESS,</pre>
+<pre class="line after"><span class="ws">        </span>&#x27;data&#x27;: resp_data</pre></div>
+</div>
+</ul>
+  <blockquote>AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py&quot;, line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py&quot;, line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py&quot;, line 44, in _func
+    return func()
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py&quot;, line 17, in _func
+    resp = func()
+  File &quot;/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py&quot;, line 29, in requirement_tree_list
+    resp_data = tree.get_elementui_tree()
+AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;get_elementui_tree&#x27;
+</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nzz/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py", line 44, in _func
+    return func()
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/utils/handle_api.py", line 17, in _func
+    resp = func()
+  File "/home/nzz/retool/ReTool/RequirementsManager-master/rm-server/requirementmanager/requirementmanager/api/requirement/tree/list.py", line 29, in requirement_tree_list
+    resp_data = tree.get_elementui_tree()
+AttributeError: 'NoneType' object has no attribute 'get_elementui_tree'
+
+
+-->
+: 0127.0.0.1 - - [04/May/2022 15:41:48] "GET /requirement/tree/list?project_id=a5fbd4bacb7d11ec8e723c7c3f2b2c02 HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:41:50] "GET /project/list?username=admin HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:42:11] "POST /requirement/importfile/upload HTTP/1.0" 200 -
+
+{'meta': {'status': 500, 'msg': 'Internal Server Error'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'data': [{'_id': '3c00939acb7a11ecbcb33c7c3f2b2c02', 'project_name': '示例项目', 'description': '这是示例项目', 'start_time': None, 'status': '进行中'}, {'_id': 'a5fbd4bacb7d11ec8e723c7c3f2b2c02', 'project_name': 'test', 'description': 'test', 'start_time': None, 'status': '进行中'}], 'meta': {'status': 200, 'msg': '获取成功！'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 18641
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4ujCGJS4LIyEfHfq
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b''
+{'meta': {'status': 200, 'msg': '上传成功！'}, 'data': {'token': 'b56e1083cb7d11ecb8d83c7c3f2b2c02'}}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 44
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"token":"b56e1083cb7d11ecb8d83c7c3f2b2c02"}'
+{'meta': {'status': 200, 'msg': '条目化成功！'}, 'data': [{'_id': '2', 'label': '1 功能需求', 'children': [{'_id': 'b74f4345cb7d11ec9f6f3c7c3f2b2c02', 'label': '1.1 业务架构设计', 'children': [{'_id': 'b76eaaedcb7d11ec85aa3c7c3f2b2c02', 'label': '1.1.a 业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。', 'children': []}, {'_id': 'b76ead47cb7d11eca2683c7c3f2b2c02', 'label': '1.1.b 信息架构设计提供信息活动视角、能力视角、知识视角、标准规范视角等建模功能', 'children': []}, {'_id': 'b76eae46cb7d11ecaade3c7c3f2b2c02', 'label': '1.1.c 信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建', 'children': []}, {'_id': 'b76eaf05cb7d11ec88953c7c3f2b2c02', 'label': '1.1.d 信息架构设计支持与业务架构进行关联映射。', 'children': []}]}, {'_id': 'b76eb012cb7d11ec90973c7c3f2b2c02', 'label': '1.2 仿真试验规划管理', 'children': [{'_id': 'b78deb07cb7d11ec8bb93c7c3f2b2c02', 'label': '1.2.a 仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。', 'children': []}, {'_id': 'b78ded3acb7d11ec81b83c7c3f2b2c02', 'label': '1.2.b 根据所选择的模型信息，协同锁定系统对模型数据进行锁定。', 'children': []}, {'_id': 'b78dee30cb7d11ec9b683c7c3f2b2c02', 'label': '1.2.c 根据所选择的模型信息，协同解锁系统对模型数据进行解锁。', 'children': []}, {'_id': 'b78deee4cb7d11ec98ff3c7c3f2b2c02', 'label': '1.2.d 均匀设计支持基于均匀设计方法生成仿真试验样本。', 'children': []}, {'_id': 'b78def8ccb7d11ec9c6d3c7c3f2b2c02', 'label': '1.2.e 拥有大于2组实验数据时，正交设计支持基于正交设计方法生成仿真试验样本。', 'children': []}, {'_id': 'b78df02ccb7d11eca78e3c7c3f2b2c02', 'label': '1.2.f 拥有大于1组实验数据时，正交设计支持基于正交设计方法生成仿真试验样本。', 'children': []}]}, {'_id': 'b78df126cb7d11eca97f3c7c3f2b2c02', 'label': '1.3 业务结构仿真验证', 'children': [{'_id': 'b7ad31b4cb7d11ec97863c7c3f2b2c02', 'label': '1.3.a 流程可行性验证分析支持对流程可执行性的验证分析。', 'children': []}, {'_id': 'b7ad3410cb7d11ec93113c7c3f2b2c02', 'label': '1.3.b 仿真态势综合展示支持仿真态势的可视化综合展示。', 'children': []}, {'_id': 'b7ad34f8cb7d11ec996f3c7c3f2b2c02', 'label': '1.3.c 活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。', 'children': []}]}, {'_id': 'b7ad360bcb7d11ec9d0c3c7c3f2b2c02', 'label': '1.4 评估模型构建', 'children': [{'_id': 'b7cc7609cb7d11ecbf253c7c3f2b2c02', 'label': '1.4.a 支持建立源数据规格模型与评估指标业务模型之间的映射关系', 'children': []}, {'_id': 'b7cc7849cb7d11ec84f53c7c3f2b2c02', 'label': '1.4.b 支持将仿真与实验数据自动转换成评估数据。', 'children': []}, {'_id': 'b7cc7942cb7d11ec8b5a3c7c3f2b2c02', 'label': '1.4.c 归一化模型构建功能能够提供指标归一化模型的可视化构建。', 'children': []}, {'_id': 'b7cc79f4cb7d11ec82273c7c3f2b2c02', 'label': '1.4.d 提供对构建完成的评估模型的语法自动检查的NL', 'children': []}, {'_id': 'b7cc7a97cb7d11ecb62c3c7c3f2b2c02', 'label': '1.4.e 模型执行与检查功能保证评估模型的一致性和可执行性', 'children': []}, {'_id': 'b7cc7b3bcb7d11eca3a53c7c3f2b2c02', 'label': '1.4.f 当执行模型检查时，不能提供指标归一化模型的可视化构建。', 'children': []}, {'_id': 'b7cc7bdbcb7d11ec95e03c7c3f2b2c02', 'label': '1.4.g 系统可以对AHP等评估计算模型进行可视化构建。', 'children': []}]}, {'_id': 'b7cc7cd6cb7d11ec85c53c7c3f2b2c02', 'label': '1.5 评估计算执行', 'children': [{'_id': 'b7ebb004cb7d11ecad2d3c7c3f2b2c02', 'label': '1.5.a 当获得仿真试验数据后，评估模型执行功能能够按照评估模型中制定的评估流程，逐步执行计算模型和分析模型过程，最终生成AHP评估结果。', 'children': []}, {'_id': 'b7ebb23bcb7d11ec8ce43c7c3f2b2c02', 'label': '1.5.b 评估模型执行功能能够根据评估任务的需要，以数据抽取的方式 获得所需的仿真试验数据。', 'children': []}, {'_id': 'b7ebb331cb7d11ecb88c3c7c3f2b2c02', 'label': '1.5.c 评估任务执行控制功能提供评估任务执行过程的执行控制操作。', 'children': []}]}, {'_id': 'b7ebb444cb7d11ec9e3e3c7c3f2b2c02', 'label': '1.6 评估报告生成', 'children': [{'_id': 'b80af155cb7d11ecbefe3c7c3f2b2c02', 'label': '1.6.a 评估报告生成功能能够按照用户指定的路径保存生成的文档。', 'children': []}, {'_id': 'b80af3a8cb7d11ec927c3c7c3f2b2c02', 'label': '1.6.b 评估报告生成功能能够读取AHP评估结果并以柱状图、曲线图、仪表图等多种常见的图形输出到文档中。', 'children': []}]}]}, {'_id': '3', 'label': '2 性能需求', 'children': [{'_id': 'b80af626cb7d11ec9adf3c7c3f2b2c02', 'label': '2.1 通用性能需求', 'children': [{'_id': 'b82a30bfcb7d11eca2923c7c3f2b2c02', 'label': '2.1.a 项目打开时间功能能够支持打开模型数小于150个的项目的时间小于3秒。', 'children': []}, {'_id': 'b82a32fbcb7d11eca1983c7c3f2b2c02', 'label': '2.1.b 一个项目可支持的模型数不少于250个。', 'children': []}, {'_id': 'b82a33e2cb7d11ec97e43c7c3f2b2c02', 'label': '2.1.c NL评估分析工具构建评估指标XX可支持的层数不少于10层。', 'children': []}, {'_id': 'b82a34a0cb7d11ec8c5d3c7c3f2b2c02', 'label': '2.1.d 响应时间指标功能，用户页面响应时间一般不超过3秒。', 'children': []}, {'_id': 'b82a3545cb7d11ec8c523c7c3f2b2c02', 'label': '2.1.e 单个视图结构下可支持管理的模型数不少于40个。', 'children': []}]}]}, {'_id': '4', 'label': '3 可靠性需求', 'children': [{'_id': 'b82a374bcb7d11eca0fc3c7c3f2b2c02', 'label': '3.1 负载可靠性', 'children': [{'_id': 'b84974cbcb7d11ec89f53c7c3f2b2c02', 'label': '3.1.a 负载情况下或用户误操作后系统正常运行超过24小时的概率大于99.9%。', 'children': []}]}, {'_id': 'b8497774cb7d11ecadf13c7c3f2b2c02', 'label': '3.2 系统崩溃可用性', 'children': [{'_id': 'b868aebacb7d11ecb9df3c7c3f2b2c02', 'label': '3.2.a 系统崩溃后恢复正常的时间小于10分钟的概率等于100.00%。', 'children': []}]}]}, {'_id': '7', 'label': '4 安全性需求', 'children': [{'_id': 'b868b2c1cb7d11ec987f3c7c3f2b2c02', 'label': '4.1 数据安全', 'children': [{'_id': 'b887728ecb7d11ecb0103c7c3f2b2c02', 'label': '4.1.a 在数据本身的存储安全方面，采用信息摘要方式存储密码，信息摘要采用单向Hash方式获取。既可以保证密码信息的可比较要求，又保证了存储入库的数据的不可逆要求，解决了一旦数据库被窃取密码也会随之丢失的问题。同时，对于摘要的生成进行了增强加密实现，即使每个用户使用了相同的密码，也不会存储为同样的密码摘要。', 'children': []}]}, {'_id': 'b8877333cb7d11ec994d3c7c3f2b2c02', 'label': '4.2 权限控制', 'children': [{'_id': 'b8a6b02dcb7d11eca8bd3c7c3f2b2c02', 'label': '4.2.a 每个用户有不同的工作职能，在系统中担任的角色也不同，我们可以对不同角色设定其使用功能权限。只有项目负责人可以对整体项目进行管理，而设计人员禁止对整体项目进行管理。用户登录时，系统会根据用户的功能权限自动生成该功能菜单或操作，未授权的功能在菜单上不显示或无法操作。', 'children': []}]}, {'_id': 'b8a6b2cdcb7d11ec9fe53c7c3f2b2c02', 'label': '4.3 用户数据权限控制', 'children': [{'_id': 'b8c5e9f3cb7d11ec9ddc3c7c3f2b2c02', 'label': '4.3.a 我们可以对不同角色设定其框架数据权限和项目数据权限，这样该用户每次访问数据时，都只能对其授权范围内的数据进行操作。管理账号不能远程登陆数据库管理系统，管理的维护只能在数据库所在机器本地进行，应用所使用的账号单独分配远程访问NL，并进行数据库、表的权限控制。', 'children': []}]}]}]}127.0.0.1 - - [04/May/2022 15:42:17] "POST /requirement/importfile/itemize HTTP/1.0" 200 -
+
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 8044
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"a5fbd4bacb7d11ec8e723c7c3f2b2c02","version":null},"target_type":"tree","target_data":[{"_id":"2","label":"1 \xe5\x8a\x9f\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b74f4345cb7d11ec9f6f3c7c3f2b2c02","label":"1.1 \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1","children":[{"_id":"b76eaaedcb7d11ec85aa3c7c3f2b2c02","label":"1.1.a \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xb8\x9a\xe5\x8a\xa1\xe8\x83\xbd\xe5\x8a\x9b\xe6\x9e\x84\xe6\x83\xb3\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x9e\x84\xe6\x88\x90\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbf\xa1\xe6\x81\xaf\xe4\xba\xa4\xe6\x8d\xa2\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe5\x85\xb3\xe7\xb3\xbb\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe6\x9c\xba\xe6\x9e\x84\xe8\x81\x8c\xe8\x83\xbd\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe5\x8d\x8f\xe4\xbd\x9c\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd\xe3\x80\x82","children":[]},{"_id":"b76ead47cb7d11eca2683c7c3f2b2c02","label":"1.1.b \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe7\x9f\xa5\xe8\xaf\x86\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe6\xa0\x87\xe5\x87\x86\xe8\xa7\x84\xe8\x8c\x83\xe8\xa7\x86\xe8\xa7\x92\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd","children":[]},{"_id":"b76eae46cb7d11ecaade3c7c3f2b2c02","label":"1.1.c \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe8\xbd\xac\xe6\x8d\xa2\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe6\x95\x88\xe6\x9e\x9c\xe8\xa6\x81\xe6\xb1\x82\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe5\x88\x86\xe7\xb1\xbb\xe7\xad\x89\xe4\xbd\x93\xe7\xb3\xbb\xe7\xbb\x93\xe6\x9e\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe6\x9e\x84\xe5\xbb\xba","children":[]},{"_id":"b76eaf05cb7d11ec88953c7c3f2b2c02","label":"1.1.d \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe4\xb8\x8e\xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x85\xb3\xe8\x81\x94\xe6\x98\xa0\xe5\xb0\x84\xe3\x80\x82","children":[]}]},{"_id":"b76eb012cb7d11ec90973c7c3f2b2c02","label":"1.2 \xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe8\xa7\x84\xe5\x88\x92\xe7\xae\xa1\xe7\x90\x86","children":[{"_id":"b78deb07cb7d11ec8bb93c7c3f2b2c02","label":"1.2.a \xe4\xbb\xbf\xe7\x9c\x9f\xe6\xa0\xb7\xe6\x9c\xac\xe7\xae\xa1\xe7\x90\x86\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe7\xae\xa1\xe7\x90\x86\xe5\x92\x8c\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe8\xb0\x83\xe5\xba\xa6\xe3\x80\x82","children":[]},{"_id":"b78ded3acb7d11ec81b83c7c3f2b2c02","label":"1.2.b \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe9\x94\x81\xe5\xae\x9a\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe9\x94\x81\xe5\xae\x9a\xe3\x80\x82","children":[]},{"_id":"b78dee30cb7d11ec9b683c7c3f2b2c02","label":"1.2.c \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe8\xa7\xa3\xe9\x94\x81\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe8\xa7\xa3\xe9\x94\x81\xe3\x80\x82","children":[]},{"_id":"b78deee4cb7d11ec98ff3c7c3f2b2c02","label":"1.2.d \xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78def8ccb7d11ec9c6d3c7c3f2b2c02","label":"1.2.e \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e2\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78df02ccb7d11eca78e3c7c3f2b2c02","label":"1.2.f \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e1\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]}]},{"_id":"b78df126cb7d11eca97f3c7c3f2b2c02","label":"1.3 \xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe9\xaa\x8c\xe8\xaf\x81","children":[{"_id":"b7ad31b4cb7d11ec97863c7c3f2b2c02","label":"1.3.a \xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe8\xa1\x8c\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7\xe7\x9a\x84\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]},{"_id":"b7ad3410cb7d11ec93113c7c3f2b2c02","label":"1.3.b \xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe6\x94\xaf\xe6\x8c\x81\xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe3\x80\x82","children":[]},{"_id":"b7ad34f8cb7d11ec996f3c7c3f2b2c02","label":"1.3.c \xe6\xb4\xbb\xe5\x8a\xa8\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe6\xb4\xbb\xe5\x8a\xa8\xe7\x9a\x84\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]}]},{"_id":"b7ad360bcb7d11ec9d0c3c7c3f2b2c02","label":"1.4 \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba","children":[{"_id":"b7cc7609cb7d11ecbf253c7c3f2b2c02","label":"1.4.a \xe6\x94\xaf\xe6\x8c\x81\xe5\xbb\xba\xe7\xab\x8b\xe6\xba\x90\xe6\x95\xb0\xe6\x8d\xae\xe8\xa7\x84\xe6\xa0\xbc\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\x8e\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb9\x8b\xe9\x97\xb4\xe7\x9a\x84\xe6\x98\xa0\xe5\xb0\x84\xe5\x85\xb3\xe7\xb3\xbb","children":[]},{"_id":"b7cc7849cb7d11ec84f53c7c3f2b2c02","label":"1.4.b \xe6\x94\xaf\xe6\x8c\x81\xe5\xb0\x86\xe4\xbb\xbf\xe7\x9c\x9f\xe4\xb8\x8e\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe8\x87\xaa\xe5\x8a\xa8\xe8\xbd\xac\xe6\x8d\xa2\xe6\x88\x90\xe8\xaf\x84\xe4\xbc\xb0\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7cc7942cb7d11ec8b5a3c7c3f2b2c02","label":"1.4.c \xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc79f4cb7d11ec82273c7c3f2b2c02","label":"1.4.d \xe6\x8f\x90\xe4\xbe\x9b\xe5\xaf\xb9\xe6\x9e\x84\xe5\xbb\xba\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe8\xaf\xad\xe6\xb3\x95\xe8\x87\xaa\xe5\x8a\xa8\xe6\xa3\x80\xe6\x9f\xa5\xe7\x9a\x84NL","children":[]},{"_id":"b7cc7a97cb7d11ecb62c3c7c3f2b2c02","label":"1.4.e \xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe4\xb8\x8e\xe6\xa3\x80\xe6\x9f\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe4\xbf\x9d\xe8\xaf\x81\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe4\xb8\x80\xe8\x87\xb4\xe6\x80\xa7\xe5\x92\x8c\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7","children":[]},{"_id":"b7cc7b3bcb7d11eca3a53c7c3f2b2c02","label":"1.4.f \xe5\xbd\x93\xe6\x89\xa7\xe8\xa1\x8c\xe6\xa8\xa1\xe5\x9e\x8b\xe6\xa3\x80\xe6\x9f\xa5\xe6\x97\xb6\xef\xbc\x8c\xe4\xb8\x8d\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc7bdbcb7d11ec95e03c7c3f2b2c02","label":"1.4.g \xe7\xb3\xbb\xe7\xbb\x9f\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9AHP\xe7\xad\x89\xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]}]},{"_id":"b7cc7cd6cb7d11ec85c53c7c3f2b2c02","label":"1.5 \xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\x89\xa7\xe8\xa1\x8c","children":[{"_id":"b7ebb004cb7d11ecad2d3c7c3f2b2c02","label":"1.5.a \xe5\xbd\x93\xe8\x8e\xb7\xe5\xbe\x97\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\x90\x8e\xef\xbc\x8c\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\xad\xe5\x88\xb6\xe5\xae\x9a\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xb5\x81\xe7\xa8\x8b\xef\xbc\x8c\xe9\x80\x90\xe6\xad\xa5\xe6\x89\xa7\xe8\xa1\x8c\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe5\x92\x8c\xe5\x88\x86\xe6\x9e\x90\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x87\xe7\xa8\x8b\xef\xbc\x8c\xe6\x9c\x80\xe7\xbb\x88\xe7\x94\x9f\xe6\x88\x90AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe3\x80\x82","children":[]},{"_id":"b7ebb23bcb7d11ec8ce43c7c3f2b2c02","label":"1.5.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\xa0\xb9\xe6\x8d\xae\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe7\x9a\x84\xe9\x9c\x80\xe8\xa6\x81\xef\xbc\x8c\xe4\xbb\xa5\xe6\x95\xb0\xe6\x8d\xae\xe6\x8a\xbd\xe5\x8f\x96\xe7\x9a\x84\xe6\x96\xb9\xe5\xbc\x8f \xe8\x8e\xb7\xe5\xbe\x97\xe6\x89\x80\xe9\x9c\x80\xe7\x9a\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7ebb331cb7d11ecb88c3c7c3f2b2c02","label":"1.5.c \xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe5\x8a\x9f\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe8\xbf\x87\xe7\xa8\x8b\xe7\x9a\x84\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b7ebb444cb7d11ec9e3e3c7c3f2b2c02","label":"1.6 \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90","children":[{"_id":"b80af155cb7d11ecbefe3c7c3f2b2c02","label":"1.6.a \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe7\x94\xa8\xe6\x88\xb7\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe8\xb7\xaf\xe5\xbe\x84\xe4\xbf\x9d\xe5\xad\x98\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe6\x96\x87\xe6\xa1\xa3\xe3\x80\x82","children":[]},{"_id":"b80af3a8cb7d11ec927c3c7c3f2b2c02","label":"1.6.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe8\xaf\xbb\xe5\x8f\x96AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe5\xb9\xb6\xe4\xbb\xa5\xe6\x9f\xb1\xe7\x8a\xb6\xe5\x9b\xbe\xe3\x80\x81\xe6\x9b\xb2\xe7\xba\xbf\xe5\x9b\xbe\xe3\x80\x81\xe4\xbb\xaa\xe8\xa1\xa8\xe5\x9b\xbe\xe7\xad\x89\xe5\xa4\x9a\xe7\xa7\x8d\xe5\xb8\xb8\xe8\xa7\x81\xe7\x9a\x84\xe5\x9b\xbe\xe5\xbd\xa2\xe8\xbe\x93\xe5\x87\xba\xe5\x88\xb0\xe6\x96\x87\xe6\xa1\xa3\xe4\xb8\xad\xe3\x80\x82","children":[]}]}]},{"_id":"3","label":"2 \xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b80af626cb7d11ec9adf3c7c3f2b2c02","label":"2.1 \xe9\x80\x9a\xe7\x94\xa8\xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a30bfcb7d11eca2923c7c3f2b2c02","label":"2.1.a \xe9\xa1\xb9\xe7\x9b\xae\xe6\x89\x93\xe5\xbc\x80\xe6\x97\xb6\xe9\x97\xb4\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x94\xaf\xe6\x8c\x81\xe6\x89\x93\xe5\xbc\x80\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe5\xb0\x8f\xe4\xba\x8e150\xe4\xb8\xaa\xe7\x9a\x84\xe9\xa1\xb9\xe7\x9b\xae\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e3\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a32fbcb7d11eca1983c7c3f2b2c02","label":"2.1.b \xe4\xb8\x80\xe4\xb8\xaa\xe9\xa1\xb9\xe7\x9b\xae\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e250\xe4\xb8\xaa\xe3\x80\x82","children":[]},{"_id":"b82a33e2cb7d11ec97e43c7c3f2b2c02","label":"2.1.c NL\xe8\xaf\x84\xe4\xbc\xb0\xe5\x88\x86\xe6\x9e\x90\xe5\xb7\xa5\xe5\x85\xb7\xe6\x9e\x84\xe5\xbb\xba\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87XX\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe5\xb1\x82\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e10\xe5\xb1\x82\xe3\x80\x82","children":[]},{"_id":"b82a34a0cb7d11ec8c5d3c7c3f2b2c02","label":"2.1.d \xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe6\x8c\x87\xe6\xa0\x87\xe5\x8a\x9f\xe8\x83\xbd\xef\xbc\x8c\xe7\x94\xa8\xe6\x88\xb7\xe9\xa1\xb5\xe9\x9d\xa2\xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe4\xb8\x80\xe8\x88\xac\xe4\xb8\x8d\xe8\xb6\x85\xe8\xbf\x873\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a3545cb7d11ec8c523c7c3f2b2c02","label":"2.1.e \xe5\x8d\x95\xe4\xb8\xaa\xe8\xa7\x86\xe5\x9b\xbe\xe7\xbb\x93\xe6\x9e\x84\xe4\xb8\x8b\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e40\xe4\xb8\xaa\xe3\x80\x82","children":[]}]}]},{"_id":"4","label":"3 \xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a374bcb7d11eca0fc3c7c3f2b2c02","label":"3.1 \xe8\xb4\x9f\xe8\xbd\xbd\xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7","children":[{"_id":"b84974cbcb7d11ec89f53c7c3f2b2c02","label":"3.1.a \xe8\xb4\x9f\xe8\xbd\xbd\xe6\x83\x85\xe5\x86\xb5\xe4\xb8\x8b\xe6\x88\x96\xe7\x94\xa8\xe6\x88\xb7\xe8\xaf\xaf\xe6\x93\x8d\xe4\xbd\x9c\xe5\x90\x8e\xe7\xb3\xbb\xe7\xbb\x9f\xe6\xad\xa3\xe5\xb8\xb8\xe8\xbf\x90\xe8\xa1\x8c\xe8\xb6\x85\xe8\xbf\x8724\xe5\xb0\x8f\xe6\x97\xb6\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe5\xa4\xa7\xe4\xba\x8e99.9%\xe3\x80\x82","children":[]}]},{"_id":"b8497774cb7d11ecadf13c7c3f2b2c02","label":"3.2 \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x8f\xaf\xe7\x94\xa8\xe6\x80\xa7","children":[{"_id":"b868aebacb7d11ecb9df3c7c3f2b2c02","label":"3.2.a \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x90\x8e\xe6\x81\xa2\xe5\xa4\x8d\xe6\xad\xa3\xe5\xb8\xb8\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e10\xe5\x88\x86\xe9\x92\x9f\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe7\xad\x89\xe4\xba\x8e100.00%\xe3\x80\x82","children":[]}]}]},{"_id":"7","label":"4 \xe5\xae\x89\xe5\x85\xa8\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b868b2c1cb7d11ec987f3c7c3f2b2c02","label":"4.1 \xe6\x95\xb0\xe6\x8d\xae\xe5\xae\x89\xe5\x85\xa8","children":[{"_id":"b887728ecb7d11ecb0103c7c3f2b2c02","label":"4.1.a \xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe6\x9c\xac\xe8\xba\xab\xe7\x9a\x84\xe5\xad\x98\xe5\x82\xa8\xe5\xae\x89\xe5\x85\xa8\xe6\x96\xb9\xe9\x9d\xa2\xef\xbc\x8c\xe9\x87\x87\xe7\x94\xa8\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe6\x96\xb9\xe5\xbc\x8f\xe5\xad\x98\xe5\x82\xa8\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe9\x87\x87\xe7\x94\xa8\xe5\x8d\x95\xe5\x90\x91Hash\xe6\x96\xb9\xe5\xbc\x8f\xe8\x8e\xb7\xe5\x8f\x96\xe3\x80\x82\xe6\x97\xa2\xe5\x8f\xaf\xe4\xbb\xa5\xe4\xbf\x9d\xe8\xaf\x81\xe5\xaf\x86\xe7\xa0\x81\xe4\xbf\xa1\xe6\x81\xaf\xe7\x9a\x84\xe5\x8f\xaf\xe6\xaf\x94\xe8\xbe\x83\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe5\x8f\x88\xe4\xbf\x9d\xe8\xaf\x81\xe4\xba\x86\xe5\xad\x98\xe5\x82\xa8\xe5\x85\xa5\xe5\xba\x93\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe4\xb8\x8d\xe5\x8f\xaf\xe9\x80\x86\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe8\xa7\xa3\xe5\x86\xb3\xe4\xba\x86\xe4\xb8\x80\xe6\x97\xa6\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe8\xa2\xab\xe7\xaa\x83\xe5\x8f\x96\xe5\xaf\x86\xe7\xa0\x81\xe4\xb9\x9f\xe4\xbc\x9a\xe9\x9a\x8f\xe4\xb9\x8b\xe4\xb8\xa2\xe5\xa4\xb1\xe7\x9a\x84\xe9\x97\xae\xe9\xa2\x98\xe3\x80\x82\xe5\x90\x8c\xe6\x97\xb6\xef\xbc\x8c\xe5\xaf\xb9\xe4\xba\x8e\xe6\x91\x98\xe8\xa6\x81\xe7\x9a\x84\xe7\x94\x9f\xe6\x88\x90\xe8\xbf\x9b\xe8\xa1\x8c\xe4\xba\x86\xe5\xa2\x9e\xe5\xbc\xba\xe5\x8a\xa0\xe5\xaf\x86\xe5\xae\x9e\xe7\x8e\xb0\xef\xbc\x8c\xe5\x8d\xb3\xe4\xbd\xbf\xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe4\xbd\xbf\xe7\x94\xa8\xe4\xba\x86\xe7\x9b\xb8\xe5\x90\x8c\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xb9\x9f\xe4\xb8\x8d\xe4\xbc\x9a\xe5\xad\x98\xe5\x82\xa8\xe4\xb8\xba\xe5\x90\x8c\xe6\xa0\xb7\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xe6\x91\x98\xe8\xa6\x81\xe3\x80\x82","children":[]}]},{"_id":"b8877333cb7d11ec994d3c7c3f2b2c02","label":"4.2 \xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8a6b02dcb7d11eca8bd3c7c3f2b2c02","label":"4.2.a \xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe6\x9c\x89\xe4\xb8\x8d\xe5\x90\x8c\xe7\x9a\x84\xe5\xb7\xa5\xe4\xbd\x9c\xe8\x81\x8c\xe8\x83\xbd\xef\xbc\x8c\xe5\x9c\xa8\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xb8\xad\xe6\x8b\x85\xe4\xbb\xbb\xe7\x9a\x84\xe8\xa7\x92\xe8\x89\xb2\xe4\xb9\x9f\xe4\xb8\x8d\xe5\x90\x8c\xef\xbc\x8c\xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe4\xbd\xbf\xe7\x94\xa8\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe3\x80\x82\xe5\x8f\xaa\xe6\x9c\x89\xe9\xa1\xb9\xe7\x9b\xae\xe8\xb4\x9f\xe8\xb4\xa3\xe4\xba\xba\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xef\xbc\x8c\xe8\x80\x8c\xe8\xae\xbe\xe8\xae\xa1\xe4\xba\xba\xe5\x91\x98\xe7\xa6\x81\xe6\xad\xa2\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xe3\x80\x82\xe7\x94\xa8\xe6\x88\xb7\xe7\x99\xbb\xe5\xbd\x95\xe6\x97\xb6\xef\xbc\x8c\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xbc\x9a\xe6\xa0\xb9\xe6\x8d\xae\xe7\x94\xa8\xe6\x88\xb7\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe8\x87\xaa\xe5\x8a\xa8\xe7\x94\x9f\xe6\x88\x90\xe8\xaf\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe8\x8f\x9c\xe5\x8d\x95\xe6\x88\x96\xe6\x93\x8d\xe4\xbd\x9c\xef\xbc\x8c\xe6\x9c\xaa\xe6\x8e\x88\xe6\x9d\x83\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe5\x9c\xa8\xe8\x8f\x9c\xe5\x8d\x95\xe4\xb8\x8a\xe4\xb8\x8d\xe6\x98\xbe\xe7\xa4\xba\xe6\x88\x96\xe6\x97\xa0\xe6\xb3\x95\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b8a6b2cdcb7d11ec9fe53c7c3f2b2c02","label":"4.3 \xe7\x94\xa8\xe6\x88\xb7\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8c5e9f3cb7d11ec9ddc3c7c3f2b2c02","label":"4.3.a \xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe6\xa1\x86\xe6\x9e\xb6\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe5\x92\x8c\xe9\xa1\xb9\xe7\x9b\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xef\xbc\x8c\xe8\xbf\x99\xe6\xa0\xb7\xe8\xaf\xa5\xe7\x94\xa8\xe6\x88\xb7\xe6\xaf\x8f\xe6\xac\xa1\xe8\xae\xbf\xe9\x97\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe9\x83\xbd\xe5\x8f\xaa\xe8\x83\xbd\xe5\xaf\xb9\xe5\x85\xb6\xe6\x8e\x88\xe6\x9d\x83\xe8\x8c\x83\xe5\x9b\xb4\xe5\x86\x85\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82\xe7\xae\xa1\xe7\x90\x86\xe8\xb4\xa6\xe5\x8f\xb7\xe4\xb8\x8d\xe8\x83\xbd\xe8\xbf\x9c\xe7\xa8\x8b\xe7\x99\xbb\xe9\x99\x86\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe7\xae\xa1\xe7\x90\x86\xe7\xb3\xbb\xe7\xbb\x9f\xef\xbc\x8c\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x8f\xaa\xe8\x83\xbd\xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe6\x89\x80\xe5\x9c\xa8\xe6\x9c\xba\xe5\x99\xa8\xe6\x9c\xac\xe5\x9c\xb0\xe8\xbf\x9b\xe8\xa1\x8c\xef\xbc\x8c\xe5\xba\x94\xe7\x94\xa8\xe6\x89\x80\xe4\xbd\xbf\xe7\x94\xa8\xe7\x9a\x84\xe8\xb4\xa6\xe5\x8f\xb7\xe5\x8d\x95\xe7\x8b\xac\xe5\x88\x86\xe9\x85\x8d\xe8\xbf\x9c\xe7\xa8\x8b\xe8\xae\xbf\xe9\x97\xaeNL\xef\xbc\x8c\xe5\xb9\xb6\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe3\x80\x81\xe8\xa1\xa8\xe7\x9a\x84\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6\xe3\x80\x82","children":[]}]}]}]}'127.0.0.1 - - [04/May/2022 15:42:28] "POST /requirement/analyze/conflict HTTP/1.0" 200 -
+
+{'meta': {'status': 200, 'msg': '冲突检测成功！'}, 'data': []}
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 8044
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"a5fbd4bacb7d11ec8e723c7c3f2b2c02","version":null},"target_type":"tree","target_data":[{"_id":"2","label":"1 \xe5\x8a\x9f\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b74f4345cb7d11ec9f6f3c7c3f2b2c02","label":"1.1 \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1","children":[{"_id":"b76eaaedcb7d11ec85aa3c7c3f2b2c02","label":"1.1.a \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xb8\x9a\xe5\x8a\xa1\xe8\x83\xbd\xe5\x8a\x9b\xe6\x9e\x84\xe6\x83\xb3\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x9e\x84\xe6\x88\x90\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbf\xa1\xe6\x81\xaf\xe4\xba\xa4\xe6\x8d\xa2\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe5\x85\xb3\xe7\xb3\xbb\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe6\x9c\xba\xe6\x9e\x84\xe8\x81\x8c\xe8\x83\xbd\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe5\x8d\x8f\xe4\xbd\x9c\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd\xe3\x80\x82","children":[]},{"_id":"b76ead47cb7d11eca2683c7c3f2b2c02","label":"1.1.b \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe7\x9f\xa5\xe8\xaf\x86\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe6\xa0\x87\xe5\x87\x86\xe8\xa7\x84\xe8\x8c\x83\xe8\xa7\x86\xe8\xa7\x92\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd","children":[]},{"_id":"b76eae46cb7d11ecaade3c7c3f2b2c02","label":"1.1.c \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe8\xbd\xac\xe6\x8d\xa2\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe6\x95\x88\xe6\x9e\x9c\xe8\xa6\x81\xe6\xb1\x82\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe5\x88\x86\xe7\xb1\xbb\xe7\xad\x89\xe4\xbd\x93\xe7\xb3\xbb\xe7\xbb\x93\xe6\x9e\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe6\x9e\x84\xe5\xbb\xba","children":[]},{"_id":"b76eaf05cb7d11ec88953c7c3f2b2c02","label":"1.1.d \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe4\xb8\x8e\xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x85\xb3\xe8\x81\x94\xe6\x98\xa0\xe5\xb0\x84\xe3\x80\x82","children":[]}]},{"_id":"b76eb012cb7d11ec90973c7c3f2b2c02","label":"1.2 \xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe8\xa7\x84\xe5\x88\x92\xe7\xae\xa1\xe7\x90\x86","children":[{"_id":"b78deb07cb7d11ec8bb93c7c3f2b2c02","label":"1.2.a \xe4\xbb\xbf\xe7\x9c\x9f\xe6\xa0\xb7\xe6\x9c\xac\xe7\xae\xa1\xe7\x90\x86\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe7\xae\xa1\xe7\x90\x86\xe5\x92\x8c\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe8\xb0\x83\xe5\xba\xa6\xe3\x80\x82","children":[]},{"_id":"b78ded3acb7d11ec81b83c7c3f2b2c02","label":"1.2.b \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe9\x94\x81\xe5\xae\x9a\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe9\x94\x81\xe5\xae\x9a\xe3\x80\x82","children":[]},{"_id":"b78dee30cb7d11ec9b683c7c3f2b2c02","label":"1.2.c \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe8\xa7\xa3\xe9\x94\x81\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe8\xa7\xa3\xe9\x94\x81\xe3\x80\x82","children":[]},{"_id":"b78deee4cb7d11ec98ff3c7c3f2b2c02","label":"1.2.d \xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78def8ccb7d11ec9c6d3c7c3f2b2c02","label":"1.2.e \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e2\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78df02ccb7d11eca78e3c7c3f2b2c02","label":"1.2.f \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e1\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]}]},{"_id":"b78df126cb7d11eca97f3c7c3f2b2c02","label":"1.3 \xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe9\xaa\x8c\xe8\xaf\x81","children":[{"_id":"b7ad31b4cb7d11ec97863c7c3f2b2c02","label":"1.3.a \xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe8\xa1\x8c\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7\xe7\x9a\x84\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]},{"_id":"b7ad3410cb7d11ec93113c7c3f2b2c02","label":"1.3.b \xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe6\x94\xaf\xe6\x8c\x81\xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe3\x80\x82","children":[]},{"_id":"b7ad34f8cb7d11ec996f3c7c3f2b2c02","label":"1.3.c \xe6\xb4\xbb\xe5\x8a\xa8\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe6\xb4\xbb\xe5\x8a\xa8\xe7\x9a\x84\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]}]},{"_id":"b7ad360bcb7d11ec9d0c3c7c3f2b2c02","label":"1.4 \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba","children":[{"_id":"b7cc7609cb7d11ecbf253c7c3f2b2c02","label":"1.4.a \xe6\x94\xaf\xe6\x8c\x81\xe5\xbb\xba\xe7\xab\x8b\xe6\xba\x90\xe6\x95\xb0\xe6\x8d\xae\xe8\xa7\x84\xe6\xa0\xbc\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\x8e\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb9\x8b\xe9\x97\xb4\xe7\x9a\x84\xe6\x98\xa0\xe5\xb0\x84\xe5\x85\xb3\xe7\xb3\xbb","children":[]},{"_id":"b7cc7849cb7d11ec84f53c7c3f2b2c02","label":"1.4.b \xe6\x94\xaf\xe6\x8c\x81\xe5\xb0\x86\xe4\xbb\xbf\xe7\x9c\x9f\xe4\xb8\x8e\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe8\x87\xaa\xe5\x8a\xa8\xe8\xbd\xac\xe6\x8d\xa2\xe6\x88\x90\xe8\xaf\x84\xe4\xbc\xb0\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7cc7942cb7d11ec8b5a3c7c3f2b2c02","label":"1.4.c \xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc79f4cb7d11ec82273c7c3f2b2c02","label":"1.4.d \xe6\x8f\x90\xe4\xbe\x9b\xe5\xaf\xb9\xe6\x9e\x84\xe5\xbb\xba\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe8\xaf\xad\xe6\xb3\x95\xe8\x87\xaa\xe5\x8a\xa8\xe6\xa3\x80\xe6\x9f\xa5\xe7\x9a\x84NL","children":[]},{"_id":"b7cc7a97cb7d11ecb62c3c7c3f2b2c02","label":"1.4.e \xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe4\xb8\x8e\xe6\xa3\x80\xe6\x9f\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe4\xbf\x9d\xe8\xaf\x81\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe4\xb8\x80\xe8\x87\xb4\xe6\x80\xa7\xe5\x92\x8c\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7","children":[]},{"_id":"b7cc7b3bcb7d11eca3a53c7c3f2b2c02","label":"1.4.f \xe5\xbd\x93\xe6\x89\xa7\xe8\xa1\x8c\xe6\xa8\xa1\xe5\x9e\x8b\xe6\xa3\x80\xe6\x9f\xa5\xe6\x97\xb6\xef\xbc\x8c\xe4\xb8\x8d\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc7bdbcb7d11ec95e03c7c3f2b2c02","label":"1.4.g \xe7\xb3\xbb\xe7\xbb\x9f\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9AHP\xe7\xad\x89\xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]}]},{"_id":"b7cc7cd6cb7d11ec85c53c7c3f2b2c02","label":"1.5 \xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\x89\xa7\xe8\xa1\x8c","children":[{"_id":"b7ebb004cb7d11ecad2d3c7c3f2b2c02","label":"1.5.a \xe5\xbd\x93\xe8\x8e\xb7\xe5\xbe\x97\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\x90\x8e\xef\xbc\x8c\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\xad\xe5\x88\xb6\xe5\xae\x9a\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xb5\x81\xe7\xa8\x8b\xef\xbc\x8c\xe9\x80\x90\xe6\xad\xa5\xe6\x89\xa7\xe8\xa1\x8c\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe5\x92\x8c\xe5\x88\x86\xe6\x9e\x90\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x87\xe7\xa8\x8b\xef\xbc\x8c\xe6\x9c\x80\xe7\xbb\x88\xe7\x94\x9f\xe6\x88\x90AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe3\x80\x82","children":[]},{"_id":"b7ebb23bcb7d11ec8ce43c7c3f2b2c02","label":"1.5.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\xa0\xb9\xe6\x8d\xae\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe7\x9a\x84\xe9\x9c\x80\xe8\xa6\x81\xef\xbc\x8c\xe4\xbb\xa5\xe6\x95\xb0\xe6\x8d\xae\xe6\x8a\xbd\xe5\x8f\x96\xe7\x9a\x84\xe6\x96\xb9\xe5\xbc\x8f \xe8\x8e\xb7\xe5\xbe\x97\xe6\x89\x80\xe9\x9c\x80\xe7\x9a\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7ebb331cb7d11ecb88c3c7c3f2b2c02","label":"1.5.c \xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe5\x8a\x9f\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe8\xbf\x87\xe7\xa8\x8b\xe7\x9a\x84\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b7ebb444cb7d11ec9e3e3c7c3f2b2c02","label":"1.6 \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90","children":[{"_id":"b80af155cb7d11ecbefe3c7c3f2b2c02","label":"1.6.a \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe7\x94\xa8\xe6\x88\xb7\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe8\xb7\xaf\xe5\xbe\x84\xe4\xbf\x9d\xe5\xad\x98\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe6\x96\x87\xe6\xa1\xa3\xe3\x80\x82","children":[]},{"_id":"b80af3a8cb7d11ec927c3c7c3f2b2c02","label":"1.6.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe8\xaf\xbb\xe5\x8f\x96AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe5\xb9\xb6\xe4\xbb\xa5\xe6\x9f\xb1\xe7\x8a\xb6\xe5\x9b\xbe\xe3\x80\x81\xe6\x9b\xb2\xe7\xba\xbf\xe5\x9b\xbe\xe3\x80\x81\xe4\xbb\xaa\xe8\xa1\xa8\xe5\x9b\xbe\xe7\xad\x89\xe5\xa4\x9a\xe7\xa7\x8d\xe5\xb8\xb8\xe8\xa7\x81\xe7\x9a\x84\xe5\x9b\xbe\xe5\xbd\xa2\xe8\xbe\x93\xe5\x87\xba\xe5\x88\xb0\xe6\x96\x87\xe6\xa1\xa3\xe4\xb8\xad\xe3\x80\x82","children":[]}]}]},{"_id":"3","label":"2 \xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b80af626cb7d11ec9adf3c7c3f2b2c02","label":"2.1 \xe9\x80\x9a\xe7\x94\xa8\xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a30bfcb7d11eca2923c7c3f2b2c02","label":"2.1.a \xe9\xa1\xb9\xe7\x9b\xae\xe6\x89\x93\xe5\xbc\x80\xe6\x97\xb6\xe9\x97\xb4\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x94\xaf\xe6\x8c\x81\xe6\x89\x93\xe5\xbc\x80\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe5\xb0\x8f\xe4\xba\x8e150\xe4\xb8\xaa\xe7\x9a\x84\xe9\xa1\xb9\xe7\x9b\xae\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e3\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a32fbcb7d11eca1983c7c3f2b2c02","label":"2.1.b \xe4\xb8\x80\xe4\xb8\xaa\xe9\xa1\xb9\xe7\x9b\xae\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e250\xe4\xb8\xaa\xe3\x80\x82","children":[]},{"_id":"b82a33e2cb7d11ec97e43c7c3f2b2c02","label":"2.1.c NL\xe8\xaf\x84\xe4\xbc\xb0\xe5\x88\x86\xe6\x9e\x90\xe5\xb7\xa5\xe5\x85\xb7\xe6\x9e\x84\xe5\xbb\xba\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87XX\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe5\xb1\x82\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e10\xe5\xb1\x82\xe3\x80\x82","children":[]},{"_id":"b82a34a0cb7d11ec8c5d3c7c3f2b2c02","label":"2.1.d \xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe6\x8c\x87\xe6\xa0\x87\xe5\x8a\x9f\xe8\x83\xbd\xef\xbc\x8c\xe7\x94\xa8\xe6\x88\xb7\xe9\xa1\xb5\xe9\x9d\xa2\xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe4\xb8\x80\xe8\x88\xac\xe4\xb8\x8d\xe8\xb6\x85\xe8\xbf\x873\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a3545cb7d11ec8c523c7c3f2b2c02","label":"2.1.e \xe5\x8d\x95\xe4\xb8\xaa\xe8\xa7\x86\xe5\x9b\xbe\xe7\xbb\x93\xe6\x9e\x84\xe4\xb8\x8b\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e40\xe4\xb8\xaa\xe3\x80\x82","children":[]}]}]},{"_id":"4","label":"3 \xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a374bcb7d11eca0fc3c7c3f2b2c02","label":"3.1 \xe8\xb4\x9f\xe8\xbd\xbd\xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7","children":[{"_id":"b84974cbcb7d11ec89f53c7c3f2b2c02","label":"3.1.a \xe8\xb4\x9f\xe8\xbd\xbd\xe6\x83\x85\xe5\x86\xb5\xe4\xb8\x8b\xe6\x88\x96\xe7\x94\xa8\xe6\x88\xb7\xe8\xaf\xaf\xe6\x93\x8d\xe4\xbd\x9c\xe5\x90\x8e\xe7\xb3\xbb\xe7\xbb\x9f\xe6\xad\xa3\xe5\xb8\xb8\xe8\xbf\x90\xe8\xa1\x8c\xe8\xb6\x85\xe8\xbf\x8724\xe5\xb0\x8f\xe6\x97\xb6\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe5\xa4\xa7\xe4\xba\x8e99.9%\xe3\x80\x82","children":[]}]},{"_id":"b8497774cb7d11ecadf13c7c3f2b2c02","label":"3.2 \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x8f\xaf\xe7\x94\xa8\xe6\x80\xa7","children":[{"_id":"b868aebacb7d11ecb9df3c7c3f2b2c02","label":"3.2.a \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x90\x8e\xe6\x81\xa2\xe5\xa4\x8d\xe6\xad\xa3\xe5\xb8\xb8\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e10\xe5\x88\x86\xe9\x92\x9f\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe7\xad\x89\xe4\xba\x8e100.00%\xe3\x80\x82","children":[]}]}]},{"_id":"7","label":"4 \xe5\xae\x89\xe5\x85\xa8\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b868b2c1cb7d11ec987f3c7c3f2b2c02","label":"4.1 \xe6\x95\xb0\xe6\x8d\xae\xe5\xae\x89\xe5\x85\xa8","children":[{"_id":"b887728ecb7d11ecb0103c7c3f2b2c02","label":"4.1.a \xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe6\x9c\xac\xe8\xba\xab\xe7\x9a\x84\xe5\xad\x98\xe5\x82\xa8\xe5\xae\x89\xe5\x85\xa8\xe6\x96\xb9\xe9\x9d\xa2\xef\xbc\x8c\xe9\x87\x87\xe7\x94\xa8\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe6\x96\xb9\xe5\xbc\x8f\xe5\xad\x98\xe5\x82\xa8\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe9\x87\x87\xe7\x94\xa8\xe5\x8d\x95\xe5\x90\x91Hash\xe6\x96\xb9\xe5\xbc\x8f\xe8\x8e\xb7\xe5\x8f\x96\xe3\x80\x82\xe6\x97\xa2\xe5\x8f\xaf\xe4\xbb\xa5\xe4\xbf\x9d\xe8\xaf\x81\xe5\xaf\x86\xe7\xa0\x81\xe4\xbf\xa1\xe6\x81\xaf\xe7\x9a\x84\xe5\x8f\xaf\xe6\xaf\x94\xe8\xbe\x83\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe5\x8f\x88\xe4\xbf\x9d\xe8\xaf\x81\xe4\xba\x86\xe5\xad\x98\xe5\x82\xa8\xe5\x85\xa5\xe5\xba\x93\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe4\xb8\x8d\xe5\x8f\xaf\xe9\x80\x86\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe8\xa7\xa3\xe5\x86\xb3\xe4\xba\x86\xe4\xb8\x80\xe6\x97\xa6\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe8\xa2\xab\xe7\xaa\x83\xe5\x8f\x96\xe5\xaf\x86\xe7\xa0\x81\xe4\xb9\x9f\xe4\xbc\x9a\xe9\x9a\x8f\xe4\xb9\x8b\xe4\xb8\xa2\xe5\xa4\xb1\xe7\x9a\x84\xe9\x97\xae\xe9\xa2\x98\xe3\x80\x82\xe5\x90\x8c\xe6\x97\xb6\xef\xbc\x8c\xe5\xaf\xb9\xe4\xba\x8e\xe6\x91\x98\xe8\xa6\x81\xe7\x9a\x84\xe7\x94\x9f\xe6\x88\x90\xe8\xbf\x9b\xe8\xa1\x8c\xe4\xba\x86\xe5\xa2\x9e\xe5\xbc\xba\xe5\x8a\xa0\xe5\xaf\x86\xe5\xae\x9e\xe7\x8e\xb0\xef\xbc\x8c\xe5\x8d\xb3\xe4\xbd\xbf\xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe4\xbd\xbf\xe7\x94\xa8\xe4\xba\x86\xe7\x9b\xb8\xe5\x90\x8c\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xb9\x9f\xe4\xb8\x8d\xe4\xbc\x9a\xe5\xad\x98\xe5\x82\xa8\xe4\xb8\xba\xe5\x90\x8c\xe6\xa0\xb7\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xe6\x91\x98\xe8\xa6\x81\xe3\x80\x82","children":[]}]},{"_id":"b8877333cb7d11ec994d3c7c3f2b2c02","label":"4.2 \xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8a6b02dcb7d11eca8bd3c7c3f2b2c02","label":"4.2.a \xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe6\x9c\x89\xe4\xb8\x8d\xe5\x90\x8c\xe7\x9a\x84\xe5\xb7\xa5\xe4\xbd\x9c\xe8\x81\x8c\xe8\x83\xbd\xef\xbc\x8c\xe5\x9c\xa8\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xb8\xad\xe6\x8b\x85\xe4\xbb\xbb\xe7\x9a\x84\xe8\xa7\x92\xe8\x89\xb2\xe4\xb9\x9f\xe4\xb8\x8d\xe5\x90\x8c\xef\xbc\x8c\xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe4\xbd\xbf\xe7\x94\xa8\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe3\x80\x82\xe5\x8f\xaa\xe6\x9c\x89\xe9\xa1\xb9\xe7\x9b\xae\xe8\xb4\x9f\xe8\xb4\xa3\xe4\xba\xba\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xef\xbc\x8c\xe8\x80\x8c\xe8\xae\xbe\xe8\xae\xa1\xe4\xba\xba\xe5\x91\x98\xe7\xa6\x81\xe6\xad\xa2\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xe3\x80\x82\xe7\x94\xa8\xe6\x88\xb7\xe7\x99\xbb\xe5\xbd\x95\xe6\x97\xb6\xef\xbc\x8c\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xbc\x9a\xe6\xa0\xb9\xe6\x8d\xae\xe7\x94\xa8\xe6\x88\xb7\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe8\x87\xaa\xe5\x8a\xa8\xe7\x94\x9f\xe6\x88\x90\xe8\xaf\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe8\x8f\x9c\xe5\x8d\x95\xe6\x88\x96\xe6\x93\x8d\xe4\xbd\x9c\xef\xbc\x8c\xe6\x9c\xaa\xe6\x8e\x88\xe6\x9d\x83\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe5\x9c\xa8\xe8\x8f\x9c\xe5\x8d\x95\xe4\xb8\x8a\xe4\xb8\x8d\xe6\x98\xbe\xe7\xa4\xba\xe6\x88\x96\xe6\x97\xa0\xe6\xb3\x95\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b8a6b2cdcb7d11ec9fe53c7c3f2b2c02","label":"4.3 \xe7\x94\xa8\xe6\x88\xb7\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8c5e9f3cb7d11ec9ddc3c7c3f2b2c02","label":"4.3.a \xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe6\xa1\x86\xe6\x9e\xb6\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe5\x92\x8c\xe9\xa1\xb9\xe7\x9b\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xef\xbc\x8c\xe8\xbf\x99\xe6\xa0\xb7\xe8\xaf\xa5\xe7\x94\xa8\xe6\x88\xb7\xe6\xaf\x8f\xe6\xac\xa1\xe8\xae\xbf\xe9\x97\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe9\x83\xbd\xe5\x8f\xaa\xe8\x83\xbd\xe5\xaf\xb9\xe5\x85\xb6\xe6\x8e\x88\xe6\x9d\x83\xe8\x8c\x83\xe5\x9b\xb4\xe5\x86\x85\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82\xe7\xae\xa1\xe7\x90\x86\xe8\xb4\xa6\xe5\x8f\xb7\xe4\xb8\x8d\xe8\x83\xbd\xe8\xbf\x9c\xe7\xa8\x8b\xe7\x99\xbb\xe9\x99\x86\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe7\xae\xa1\xe7\x90\x86\xe7\xb3\xbb\xe7\xbb\x9f\xef\xbc\x8c\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x8f\xaa\xe8\x83\xbd\xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe6\x89\x80\xe5\x9c\xa8\xe6\x9c\xba\xe5\x99\xa8\xe6\x9c\xac\xe5\x9c\xb0\xe8\xbf\x9b\xe8\xa1\x8c\xef\xbc\x8c\xe5\xba\x94\xe7\x94\xa8\xe6\x89\x80\xe4\xbd\xbf\xe7\x94\xa8\xe7\x9a\x84\xe8\xb4\xa6\xe5\x8f\xb7\xe5\x8d\x95\xe7\x8b\xac\xe5\x88\x86\xe9\x85\x8d\xe8\xbf\x9c\xe7\xa8\x8b\xe8\xae\xbf\xe9\x97\xaeNL\xef\xbc\x8c\xe5\xb9\xb6\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe3\x80\x81\xe8\xa1\xa8\xe7\x9a\x84\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6\xe3\x80\x82","children":[]}]}]}]}'
+{'meta': {'status': 200, 'msg': '共性识别分析成功！'}, 'data': [{'req0': {'name': '业务架构设计提...', 'description': '业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。'}, 'req1': {'name': '信息架构设计提...', 'description': '信息架构设计提供信息活动视角、能力视角、知识视角、标准规范视角等建模功能。'}}, {'req0': {'name': '业务架构设计提...', 'description': '业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。'}, 'req1': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}}, {'req0': {'name': '业务架构设计提...', 'description': '业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '业务架构设计提...', 'description': '业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '业务架构设计提...', 'description': '业务架构设计提供业务能力构想、业务任务构成、业务流程、业务信息交换、组织关系、组织机构职能、业务协作等建模功能。'}, 'req1': {'name': '评估任务执行控...', 'description': '评估任务执行控制功能提供评估任务执行过程的执行控制操作。'}}, {'req0': {'name': '信息架构设计提...', 'description': '信息架构设计提供信息活动视角、能力视角、知识视角、标准规范视角等建模功能。'}, 'req1': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}, 'req1': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}, 'req1': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}, 'req1': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持对信息活动流程、信息转换、能力效果要求、信息分类等体系结构数据的构建。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}, 'req1': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}, 'req1': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '信息架构设计支...', 'description': '信息架构设计支持与业务架构进行关联映射。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '仿真样本管理支...', 'description': '仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。'}, 'req1': {'name': '仿真态势综合展...', 'description': '仿真态势综合展示支持仿真态势的可视化综合展示。'}}, {'req0': {'name': '仿真样本管理支...', 'description': '仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。'}, 'req1': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}}, {'req0': {'name': '仿真样本管理支...', 'description': '仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '仿真样本管理支...', 'description': '仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '仿真样本管理支...', 'description': '仿真样本管理支持对仿真试验样本的管理和对仿真试验样本的调度。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '根据所选择的模...', 'description': '根据所选择的模型信息，协同锁定系统对模型数据进行锁定。'}, 'req1': {'name': '根据所选择的模...', 'description': '根据所选择的模型信息，协同解锁系统对模型数据进行解锁。'}}, {'req0': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}, 'req1': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}}, {'req0': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '流程可行性验证...', 'description': '流程可行性验证分析支持对流程可执行性的验证分析。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '仿真态势综合展...', 'description': '仿真态势综合展示支持仿真态势的可视化综合展示。'}, 'req1': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}}, {'req0': {'name': '仿真态势综合展...', 'description': '仿真态势综合展示支持仿真态势的可视化综合展示。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '仿真态势综合展...', 'description': '仿真态势综合展示支持仿真态势的可视化综合展示。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}, 'req1': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}}, {'req0': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '活动可达性验证...', 'description': '活动可达性验证分析支持对业务结构模型的活动的可达性验证分析。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}, 'req1': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}}, {'req0': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}, 'req1': {'name': '归一化模型构建...', 'description': '归一化模型构建功能能够提供指标归一化模型的可视化构建。'}}, {'req0': {'name': '支持建立源数据...', 'description': '支持建立源数据规格模型与评估指标业务模型之间的映射关系。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}, 'req1': {'name': '归一化模型构建...', 'description': '归一化模型构建功能能够提供指标归一化模型的可视化构建。'}}, {'req0': {'name': '支持将仿真与实...', 'description': '支持将仿真与实验数据自动转换成评估数据。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '归一化模型构建...', 'description': '归一化模型构建功能能够提供指标归一化模型的可视化构建。'}, 'req1': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}}, {'req0': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}, 'req1': {'name': '系统可以对AH...', 'description': '系统可以对AHP等评估计算模型进行可视化构建。'}}, {'req0': {'name': '提供对构建完成...', 'description': '提供对构建完成的评估模型的语法自动检查的NL。'}, 'req1': {'name': '评估任务执行控...', 'description': '评估任务执行控制功能提供评估任务执行过程的执行控制操作。'}}, {'req0': {'name': '一个项目可支持...', 'description': '一个项目可支持的模型数不少于250个。'}, 'req1': {'name': '单个视图结构下...', 'description': '单个视图结构下可支持管理的模型数不少于40个。'}}, {'req0': {'name': 'NL评估分析工...', 'description': 'NL评估分析工具构建评估指标XX可支持的层数不少于10层。'}, 'req1': {'name': '单个视图结构下...', 'description': '单个视图结构下可支持管理的模型数不少于40个。'}}]}127.0.0.1 - - [04/May/2022 15:42:31] "POST /requirement/analyze/similarity HTTP/1.0" 200 -
+
+Host: 10.132.18.124
+X-Real-Ip: 10.192.142.112
+X-Forwarded-For: 10.192.142.112
+Connection: close
+Content-Length: 8044
+Accept: application/json, text/plain, */*
+Authorization: G0B0xBVpK02y46Kczej5zmfpQG0un6rH+QHEIOLaOaQ=
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://10.132.18.124:8080
+Referer: http://10.132.18.124:8080/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en-GB;q=0.7,en;q=0.6
+
+
+b'{"scope":{"project_id":"a5fbd4bacb7d11ec8e723c7c3f2b2c02","version":null},"target_type":"tree","target_data":[{"_id":"2","label":"1 \xe5\x8a\x9f\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b74f4345cb7d11ec9f6f3c7c3f2b2c02","label":"1.1 \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1","children":[{"_id":"b76eaaedcb7d11ec85aa3c7c3f2b2c02","label":"1.1.a \xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xb8\x9a\xe5\x8a\xa1\xe8\x83\xbd\xe5\x8a\x9b\xe6\x9e\x84\xe6\x83\xb3\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x9e\x84\xe6\x88\x90\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe4\xbf\xa1\xe6\x81\xaf\xe4\xba\xa4\xe6\x8d\xa2\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe5\x85\xb3\xe7\xb3\xbb\xe3\x80\x81\xe7\xbb\x84\xe7\xbb\x87\xe6\x9c\xba\xe6\x9e\x84\xe8\x81\x8c\xe8\x83\xbd\xe3\x80\x81\xe4\xb8\x9a\xe5\x8a\xa1\xe5\x8d\x8f\xe4\xbd\x9c\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd\xe3\x80\x82","children":[]},{"_id":"b76ead47cb7d11eca2683c7c3f2b2c02","label":"1.1.b \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x8f\x90\xe4\xbe\x9b\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe7\x9f\xa5\xe8\xaf\x86\xe8\xa7\x86\xe8\xa7\x92\xe3\x80\x81\xe6\xa0\x87\xe5\x87\x86\xe8\xa7\x84\xe8\x8c\x83\xe8\xa7\x86\xe8\xa7\x92\xe7\xad\x89\xe5\xbb\xba\xe6\xa8\xa1\xe5\x8a\x9f\xe8\x83\xbd","children":[]},{"_id":"b76eae46cb7d11ecaade3c7c3f2b2c02","label":"1.1.c \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbf\xa1\xe6\x81\xaf\xe6\xb4\xbb\xe5\x8a\xa8\xe6\xb5\x81\xe7\xa8\x8b\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe8\xbd\xac\xe6\x8d\xa2\xe3\x80\x81\xe8\x83\xbd\xe5\x8a\x9b\xe6\x95\x88\xe6\x9e\x9c\xe8\xa6\x81\xe6\xb1\x82\xe3\x80\x81\xe4\xbf\xa1\xe6\x81\xaf\xe5\x88\x86\xe7\xb1\xbb\xe7\xad\x89\xe4\xbd\x93\xe7\xb3\xbb\xe7\xbb\x93\xe6\x9e\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe6\x9e\x84\xe5\xbb\xba","children":[]},{"_id":"b76eaf05cb7d11ec88953c7c3f2b2c02","label":"1.1.d \xe4\xbf\xa1\xe6\x81\xaf\xe6\x9e\xb6\xe6\x9e\x84\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe4\xb8\x8e\xe4\xb8\x9a\xe5\x8a\xa1\xe6\x9e\xb6\xe6\x9e\x84\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x85\xb3\xe8\x81\x94\xe6\x98\xa0\xe5\xb0\x84\xe3\x80\x82","children":[]}]},{"_id":"b76eb012cb7d11ec90973c7c3f2b2c02","label":"1.2 \xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe8\xa7\x84\xe5\x88\x92\xe7\xae\xa1\xe7\x90\x86","children":[{"_id":"b78deb07cb7d11ec8bb93c7c3f2b2c02","label":"1.2.a \xe4\xbb\xbf\xe7\x9c\x9f\xe6\xa0\xb7\xe6\x9c\xac\xe7\xae\xa1\xe7\x90\x86\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe7\xae\xa1\xe7\x90\x86\xe5\x92\x8c\xe5\xaf\xb9\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe7\x9a\x84\xe8\xb0\x83\xe5\xba\xa6\xe3\x80\x82","children":[]},{"_id":"b78ded3acb7d11ec81b83c7c3f2b2c02","label":"1.2.b \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe9\x94\x81\xe5\xae\x9a\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe9\x94\x81\xe5\xae\x9a\xe3\x80\x82","children":[]},{"_id":"b78dee30cb7d11ec9b683c7c3f2b2c02","label":"1.2.c \xe6\xa0\xb9\xe6\x8d\xae\xe6\x89\x80\xe9\x80\x89\xe6\x8b\xa9\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xbf\xa1\xe6\x81\xaf\xef\xbc\x8c\xe5\x8d\x8f\xe5\x90\x8c\xe8\xa7\xa3\xe9\x94\x81\xe7\xb3\xbb\xe7\xbb\x9f\xe5\xaf\xb9\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe8\xa7\xa3\xe9\x94\x81\xe3\x80\x82","children":[]},{"_id":"b78deee4cb7d11ec98ff3c7c3f2b2c02","label":"1.2.d \xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe5\x9d\x87\xe5\x8c\x80\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78def8ccb7d11ec9c6d3c7c3f2b2c02","label":"1.2.e \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e2\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]},{"_id":"b78df02ccb7d11eca78e3c7c3f2b2c02","label":"1.2.f \xe6\x8b\xa5\xe6\x9c\x89\xe5\xa4\xa7\xe4\xba\x8e1\xe7\xbb\x84\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x94\xaf\xe6\x8c\x81\xe5\x9f\xba\xe4\xba\x8e\xe6\xad\xa3\xe4\xba\xa4\xe8\xae\xbe\xe8\xae\xa1\xe6\x96\xb9\xe6\xb3\x95\xe7\x94\x9f\xe6\x88\x90\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\xa0\xb7\xe6\x9c\xac\xe3\x80\x82","children":[]}]},{"_id":"b78df126cb7d11eca97f3c7c3f2b2c02","label":"1.3 \xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe9\xaa\x8c\xe8\xaf\x81","children":[{"_id":"b7ad31b4cb7d11ec97863c7c3f2b2c02","label":"1.3.a \xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe8\xa1\x8c\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe6\xb5\x81\xe7\xa8\x8b\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7\xe7\x9a\x84\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]},{"_id":"b7ad3410cb7d11ec93113c7c3f2b2c02","label":"1.3.b \xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe6\x94\xaf\xe6\x8c\x81\xe4\xbb\xbf\xe7\x9c\x9f\xe6\x80\x81\xe5\x8a\xbf\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe7\xbb\xbc\xe5\x90\x88\xe5\xb1\x95\xe7\xa4\xba\xe3\x80\x82","children":[]},{"_id":"b7ad34f8cb7d11ec996f3c7c3f2b2c02","label":"1.3.c \xe6\xb4\xbb\xe5\x8a\xa8\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe6\x94\xaf\xe6\x8c\x81\xe5\xaf\xb9\xe4\xb8\x9a\xe5\x8a\xa1\xe7\xbb\x93\xe6\x9e\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe6\xb4\xbb\xe5\x8a\xa8\xe7\x9a\x84\xe5\x8f\xaf\xe8\xbe\xbe\xe6\x80\xa7\xe9\xaa\x8c\xe8\xaf\x81\xe5\x88\x86\xe6\x9e\x90\xe3\x80\x82","children":[]}]},{"_id":"b7ad360bcb7d11ec9d0c3c7c3f2b2c02","label":"1.4 \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba","children":[{"_id":"b7cc7609cb7d11ecbf253c7c3f2b2c02","label":"1.4.a \xe6\x94\xaf\xe6\x8c\x81\xe5\xbb\xba\xe7\xab\x8b\xe6\xba\x90\xe6\x95\xb0\xe6\x8d\xae\xe8\xa7\x84\xe6\xa0\xbc\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\x8e\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87\xe4\xb8\x9a\xe5\x8a\xa1\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb9\x8b\xe9\x97\xb4\xe7\x9a\x84\xe6\x98\xa0\xe5\xb0\x84\xe5\x85\xb3\xe7\xb3\xbb","children":[]},{"_id":"b7cc7849cb7d11ec84f53c7c3f2b2c02","label":"1.4.b \xe6\x94\xaf\xe6\x8c\x81\xe5\xb0\x86\xe4\xbb\xbf\xe7\x9c\x9f\xe4\xb8\x8e\xe5\xae\x9e\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe8\x87\xaa\xe5\x8a\xa8\xe8\xbd\xac\xe6\x8d\xa2\xe6\x88\x90\xe8\xaf\x84\xe4\xbc\xb0\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7cc7942cb7d11ec8b5a3c7c3f2b2c02","label":"1.4.c \xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x9e\x84\xe5\xbb\xba\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc79f4cb7d11ec82273c7c3f2b2c02","label":"1.4.d \xe6\x8f\x90\xe4\xbe\x9b\xe5\xaf\xb9\xe6\x9e\x84\xe5\xbb\xba\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe8\xaf\xad\xe6\xb3\x95\xe8\x87\xaa\xe5\x8a\xa8\xe6\xa3\x80\xe6\x9f\xa5\xe7\x9a\x84NL","children":[]},{"_id":"b7cc7a97cb7d11ecb62c3c7c3f2b2c02","label":"1.4.e \xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe4\xb8\x8e\xe6\xa3\x80\xe6\x9f\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe4\xbf\x9d\xe8\xaf\x81\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe4\xb8\x80\xe8\x87\xb4\xe6\x80\xa7\xe5\x92\x8c\xe5\x8f\xaf\xe6\x89\xa7\xe8\xa1\x8c\xe6\x80\xa7","children":[]},{"_id":"b7cc7b3bcb7d11eca3a53c7c3f2b2c02","label":"1.4.f \xe5\xbd\x93\xe6\x89\xa7\xe8\xa1\x8c\xe6\xa8\xa1\xe5\x9e\x8b\xe6\xa3\x80\xe6\x9f\xa5\xe6\x97\xb6\xef\xbc\x8c\xe4\xb8\x8d\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe6\x8c\x87\xe6\xa0\x87\xe5\xbd\x92\xe4\xb8\x80\xe5\x8c\x96\xe6\xa8\xa1\xe5\x9e\x8b\xe7\x9a\x84\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]},{"_id":"b7cc7bdbcb7d11ec95e03c7c3f2b2c02","label":"1.4.g \xe7\xb3\xbb\xe7\xbb\x9f\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9AHP\xe7\xad\x89\xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x9b\xe8\xa1\x8c\xe5\x8f\xaf\xe8\xa7\x86\xe5\x8c\x96\xe6\x9e\x84\xe5\xbb\xba\xe3\x80\x82","children":[]}]},{"_id":"b7cc7cd6cb7d11ec85c53c7c3f2b2c02","label":"1.5 \xe8\xaf\x84\xe4\xbc\xb0\xe8\xae\xa1\xe7\xae\x97\xe6\x89\xa7\xe8\xa1\x8c","children":[{"_id":"b7ebb004cb7d11ecad2d3c7c3f2b2c02","label":"1.5.a \xe5\xbd\x93\xe8\x8e\xb7\xe5\xbe\x97\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\x90\x8e\xef\xbc\x8c\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe4\xb8\xad\xe5\x88\xb6\xe5\xae\x9a\xe7\x9a\x84\xe8\xaf\x84\xe4\xbc\xb0\xe6\xb5\x81\xe7\xa8\x8b\xef\xbc\x8c\xe9\x80\x90\xe6\xad\xa5\xe6\x89\xa7\xe8\xa1\x8c\xe8\xae\xa1\xe7\xae\x97\xe6\xa8\xa1\xe5\x9e\x8b\xe5\x92\x8c\xe5\x88\x86\xe6\x9e\x90\xe6\xa8\xa1\xe5\x9e\x8b\xe8\xbf\x87\xe7\xa8\x8b\xef\xbc\x8c\xe6\x9c\x80\xe7\xbb\x88\xe7\x94\x9f\xe6\x88\x90AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe3\x80\x82","children":[]},{"_id":"b7ebb23bcb7d11ec8ce43c7c3f2b2c02","label":"1.5.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x89\xa7\xe8\xa1\x8c\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\xa0\xb9\xe6\x8d\xae\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe7\x9a\x84\xe9\x9c\x80\xe8\xa6\x81\xef\xbc\x8c\xe4\xbb\xa5\xe6\x95\xb0\xe6\x8d\xae\xe6\x8a\xbd\xe5\x8f\x96\xe7\x9a\x84\xe6\x96\xb9\xe5\xbc\x8f \xe8\x8e\xb7\xe5\xbe\x97\xe6\x89\x80\xe9\x9c\x80\xe7\x9a\x84\xe4\xbb\xbf\xe7\x9c\x9f\xe8\xaf\x95\xe9\xaa\x8c\xe6\x95\xb0\xe6\x8d\xae\xe3\x80\x82","children":[]},{"_id":"b7ebb331cb7d11ecb88c3c7c3f2b2c02","label":"1.5.c \xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe5\x8a\x9f\xe8\x83\xbd\xe6\x8f\x90\xe4\xbe\x9b\xe8\xaf\x84\xe4\xbc\xb0\xe4\xbb\xbb\xe5\x8a\xa1\xe6\x89\xa7\xe8\xa1\x8c\xe8\xbf\x87\xe7\xa8\x8b\xe7\x9a\x84\xe6\x89\xa7\xe8\xa1\x8c\xe6\x8e\xa7\xe5\x88\xb6\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b7ebb444cb7d11ec9e3e3c7c3f2b2c02","label":"1.6 \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90","children":[{"_id":"b80af155cb7d11ecbefe3c7c3f2b2c02","label":"1.6.a \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x8c\x89\xe7\x85\xa7\xe7\x94\xa8\xe6\x88\xb7\xe6\x8c\x87\xe5\xae\x9a\xe7\x9a\x84\xe8\xb7\xaf\xe5\xbe\x84\xe4\xbf\x9d\xe5\xad\x98\xe7\x94\x9f\xe6\x88\x90\xe7\x9a\x84\xe6\x96\x87\xe6\xa1\xa3\xe3\x80\x82","children":[]},{"_id":"b80af3a8cb7d11ec927c3c7c3f2b2c02","label":"1.6.b \xe8\xaf\x84\xe4\xbc\xb0\xe6\x8a\xa5\xe5\x91\x8a\xe7\x94\x9f\xe6\x88\x90\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe8\xaf\xbb\xe5\x8f\x96AHP\xe8\xaf\x84\xe4\xbc\xb0\xe7\xbb\x93\xe6\x9e\x9c\xe5\xb9\xb6\xe4\xbb\xa5\xe6\x9f\xb1\xe7\x8a\xb6\xe5\x9b\xbe\xe3\x80\x81\xe6\x9b\xb2\xe7\xba\xbf\xe5\x9b\xbe\xe3\x80\x81\xe4\xbb\xaa\xe8\xa1\xa8\xe5\x9b\xbe\xe7\xad\x89\xe5\xa4\x9a\xe7\xa7\x8d\xe5\xb8\xb8\xe8\xa7\x81\xe7\x9a\x84\xe5\x9b\xbe\xe5\xbd\xa2\xe8\xbe\x93\xe5\x87\xba\xe5\x88\xb0\xe6\x96\x87\xe6\xa1\xa3\xe4\xb8\xad\xe3\x80\x82","children":[]}]}]},{"_id":"3","label":"2 \xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b80af626cb7d11ec9adf3c7c3f2b2c02","label":"2.1 \xe9\x80\x9a\xe7\x94\xa8\xe6\x80\xa7\xe8\x83\xbd\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a30bfcb7d11eca2923c7c3f2b2c02","label":"2.1.a \xe9\xa1\xb9\xe7\x9b\xae\xe6\x89\x93\xe5\xbc\x80\xe6\x97\xb6\xe9\x97\xb4\xe5\x8a\x9f\xe8\x83\xbd\xe8\x83\xbd\xe5\xa4\x9f\xe6\x94\xaf\xe6\x8c\x81\xe6\x89\x93\xe5\xbc\x80\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe5\xb0\x8f\xe4\xba\x8e150\xe4\xb8\xaa\xe7\x9a\x84\xe9\xa1\xb9\xe7\x9b\xae\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e3\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a32fbcb7d11eca1983c7c3f2b2c02","label":"2.1.b \xe4\xb8\x80\xe4\xb8\xaa\xe9\xa1\xb9\xe7\x9b\xae\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e250\xe4\xb8\xaa\xe3\x80\x82","children":[]},{"_id":"b82a33e2cb7d11ec97e43c7c3f2b2c02","label":"2.1.c NL\xe8\xaf\x84\xe4\xbc\xb0\xe5\x88\x86\xe6\x9e\x90\xe5\xb7\xa5\xe5\x85\xb7\xe6\x9e\x84\xe5\xbb\xba\xe8\xaf\x84\xe4\xbc\xb0\xe6\x8c\x87\xe6\xa0\x87XX\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\x9a\x84\xe5\xb1\x82\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e10\xe5\xb1\x82\xe3\x80\x82","children":[]},{"_id":"b82a34a0cb7d11ec8c5d3c7c3f2b2c02","label":"2.1.d \xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe6\x8c\x87\xe6\xa0\x87\xe5\x8a\x9f\xe8\x83\xbd\xef\xbc\x8c\xe7\x94\xa8\xe6\x88\xb7\xe9\xa1\xb5\xe9\x9d\xa2\xe5\x93\x8d\xe5\xba\x94\xe6\x97\xb6\xe9\x97\xb4\xe4\xb8\x80\xe8\x88\xac\xe4\xb8\x8d\xe8\xb6\x85\xe8\xbf\x873\xe7\xa7\x92\xe3\x80\x82","children":[]},{"_id":"b82a3545cb7d11ec8c523c7c3f2b2c02","label":"2.1.e \xe5\x8d\x95\xe4\xb8\xaa\xe8\xa7\x86\xe5\x9b\xbe\xe7\xbb\x93\xe6\x9e\x84\xe4\xb8\x8b\xe5\x8f\xaf\xe6\x94\xaf\xe6\x8c\x81\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe6\xa8\xa1\xe5\x9e\x8b\xe6\x95\xb0\xe4\xb8\x8d\xe5\xb0\x91\xe4\xba\x8e40\xe4\xb8\xaa\xe3\x80\x82","children":[]}]}]},{"_id":"4","label":"3 \xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b82a374bcb7d11eca0fc3c7c3f2b2c02","label":"3.1 \xe8\xb4\x9f\xe8\xbd\xbd\xe5\x8f\xaf\xe9\x9d\xa0\xe6\x80\xa7","children":[{"_id":"b84974cbcb7d11ec89f53c7c3f2b2c02","label":"3.1.a \xe8\xb4\x9f\xe8\xbd\xbd\xe6\x83\x85\xe5\x86\xb5\xe4\xb8\x8b\xe6\x88\x96\xe7\x94\xa8\xe6\x88\xb7\xe8\xaf\xaf\xe6\x93\x8d\xe4\xbd\x9c\xe5\x90\x8e\xe7\xb3\xbb\xe7\xbb\x9f\xe6\xad\xa3\xe5\xb8\xb8\xe8\xbf\x90\xe8\xa1\x8c\xe8\xb6\x85\xe8\xbf\x8724\xe5\xb0\x8f\xe6\x97\xb6\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe5\xa4\xa7\xe4\xba\x8e99.9%\xe3\x80\x82","children":[]}]},{"_id":"b8497774cb7d11ecadf13c7c3f2b2c02","label":"3.2 \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x8f\xaf\xe7\x94\xa8\xe6\x80\xa7","children":[{"_id":"b868aebacb7d11ecb9df3c7c3f2b2c02","label":"3.2.a \xe7\xb3\xbb\xe7\xbb\x9f\xe5\xb4\xa9\xe6\xba\x83\xe5\x90\x8e\xe6\x81\xa2\xe5\xa4\x8d\xe6\xad\xa3\xe5\xb8\xb8\xe7\x9a\x84\xe6\x97\xb6\xe9\x97\xb4\xe5\xb0\x8f\xe4\xba\x8e10\xe5\x88\x86\xe9\x92\x9f\xe7\x9a\x84\xe6\xa6\x82\xe7\x8e\x87\xe7\xad\x89\xe4\xba\x8e100.00%\xe3\x80\x82","children":[]}]}]},{"_id":"7","label":"4 \xe5\xae\x89\xe5\x85\xa8\xe6\x80\xa7\xe9\x9c\x80\xe6\xb1\x82","children":[{"_id":"b868b2c1cb7d11ec987f3c7c3f2b2c02","label":"4.1 \xe6\x95\xb0\xe6\x8d\xae\xe5\xae\x89\xe5\x85\xa8","children":[{"_id":"b887728ecb7d11ecb0103c7c3f2b2c02","label":"4.1.a \xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe6\x9c\xac\xe8\xba\xab\xe7\x9a\x84\xe5\xad\x98\xe5\x82\xa8\xe5\xae\x89\xe5\x85\xa8\xe6\x96\xb9\xe9\x9d\xa2\xef\xbc\x8c\xe9\x87\x87\xe7\x94\xa8\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe6\x96\xb9\xe5\xbc\x8f\xe5\xad\x98\xe5\x82\xa8\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xbf\xa1\xe6\x81\xaf\xe6\x91\x98\xe8\xa6\x81\xe9\x87\x87\xe7\x94\xa8\xe5\x8d\x95\xe5\x90\x91Hash\xe6\x96\xb9\xe5\xbc\x8f\xe8\x8e\xb7\xe5\x8f\x96\xe3\x80\x82\xe6\x97\xa2\xe5\x8f\xaf\xe4\xbb\xa5\xe4\xbf\x9d\xe8\xaf\x81\xe5\xaf\x86\xe7\xa0\x81\xe4\xbf\xa1\xe6\x81\xaf\xe7\x9a\x84\xe5\x8f\xaf\xe6\xaf\x94\xe8\xbe\x83\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe5\x8f\x88\xe4\xbf\x9d\xe8\xaf\x81\xe4\xba\x86\xe5\xad\x98\xe5\x82\xa8\xe5\x85\xa5\xe5\xba\x93\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe7\x9a\x84\xe4\xb8\x8d\xe5\x8f\xaf\xe9\x80\x86\xe8\xa6\x81\xe6\xb1\x82\xef\xbc\x8c\xe8\xa7\xa3\xe5\x86\xb3\xe4\xba\x86\xe4\xb8\x80\xe6\x97\xa6\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe8\xa2\xab\xe7\xaa\x83\xe5\x8f\x96\xe5\xaf\x86\xe7\xa0\x81\xe4\xb9\x9f\xe4\xbc\x9a\xe9\x9a\x8f\xe4\xb9\x8b\xe4\xb8\xa2\xe5\xa4\xb1\xe7\x9a\x84\xe9\x97\xae\xe9\xa2\x98\xe3\x80\x82\xe5\x90\x8c\xe6\x97\xb6\xef\xbc\x8c\xe5\xaf\xb9\xe4\xba\x8e\xe6\x91\x98\xe8\xa6\x81\xe7\x9a\x84\xe7\x94\x9f\xe6\x88\x90\xe8\xbf\x9b\xe8\xa1\x8c\xe4\xba\x86\xe5\xa2\x9e\xe5\xbc\xba\xe5\x8a\xa0\xe5\xaf\x86\xe5\xae\x9e\xe7\x8e\xb0\xef\xbc\x8c\xe5\x8d\xb3\xe4\xbd\xbf\xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe4\xbd\xbf\xe7\x94\xa8\xe4\xba\x86\xe7\x9b\xb8\xe5\x90\x8c\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xef\xbc\x8c\xe4\xb9\x9f\xe4\xb8\x8d\xe4\xbc\x9a\xe5\xad\x98\xe5\x82\xa8\xe4\xb8\xba\xe5\x90\x8c\xe6\xa0\xb7\xe7\x9a\x84\xe5\xaf\x86\xe7\xa0\x81\xe6\x91\x98\xe8\xa6\x81\xe3\x80\x82","children":[]}]},{"_id":"b8877333cb7d11ec994d3c7c3f2b2c02","label":"4.2 \xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8a6b02dcb7d11eca8bd3c7c3f2b2c02","label":"4.2.a \xe6\xaf\x8f\xe4\xb8\xaa\xe7\x94\xa8\xe6\x88\xb7\xe6\x9c\x89\xe4\xb8\x8d\xe5\x90\x8c\xe7\x9a\x84\xe5\xb7\xa5\xe4\xbd\x9c\xe8\x81\x8c\xe8\x83\xbd\xef\xbc\x8c\xe5\x9c\xa8\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xb8\xad\xe6\x8b\x85\xe4\xbb\xbb\xe7\x9a\x84\xe8\xa7\x92\xe8\x89\xb2\xe4\xb9\x9f\xe4\xb8\x8d\xe5\x90\x8c\xef\xbc\x8c\xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe4\xbd\xbf\xe7\x94\xa8\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe3\x80\x82\xe5\x8f\xaa\xe6\x9c\x89\xe9\xa1\xb9\xe7\x9b\xae\xe8\xb4\x9f\xe8\xb4\xa3\xe4\xba\xba\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xef\xbc\x8c\xe8\x80\x8c\xe8\xae\xbe\xe8\xae\xa1\xe4\xba\xba\xe5\x91\x98\xe7\xa6\x81\xe6\xad\xa2\xe5\xaf\xb9\xe6\x95\xb4\xe4\xbd\x93\xe9\xa1\xb9\xe7\x9b\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe7\xae\xa1\xe7\x90\x86\xe3\x80\x82\xe7\x94\xa8\xe6\x88\xb7\xe7\x99\xbb\xe5\xbd\x95\xe6\x97\xb6\xef\xbc\x8c\xe7\xb3\xbb\xe7\xbb\x9f\xe4\xbc\x9a\xe6\xa0\xb9\xe6\x8d\xae\xe7\x94\xa8\xe6\x88\xb7\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe6\x9d\x83\xe9\x99\x90\xe8\x87\xaa\xe5\x8a\xa8\xe7\x94\x9f\xe6\x88\x90\xe8\xaf\xa5\xe5\x8a\x9f\xe8\x83\xbd\xe8\x8f\x9c\xe5\x8d\x95\xe6\x88\x96\xe6\x93\x8d\xe4\xbd\x9c\xef\xbc\x8c\xe6\x9c\xaa\xe6\x8e\x88\xe6\x9d\x83\xe7\x9a\x84\xe5\x8a\x9f\xe8\x83\xbd\xe5\x9c\xa8\xe8\x8f\x9c\xe5\x8d\x95\xe4\xb8\x8a\xe4\xb8\x8d\xe6\x98\xbe\xe7\xa4\xba\xe6\x88\x96\xe6\x97\xa0\xe6\xb3\x95\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82","children":[]}]},{"_id":"b8a6b2cdcb7d11ec9fe53c7c3f2b2c02","label":"4.3 \xe7\x94\xa8\xe6\x88\xb7\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6","children":[{"_id":"b8c5e9f3cb7d11ec9ddc3c7c3f2b2c02","label":"4.3.a \xe6\x88\x91\xe4\xbb\xac\xe5\x8f\xaf\xe4\xbb\xa5\xe5\xaf\xb9\xe4\xb8\x8d\xe5\x90\x8c\xe8\xa7\x92\xe8\x89\xb2\xe8\xae\xbe\xe5\xae\x9a\xe5\x85\xb6\xe6\xa1\x86\xe6\x9e\xb6\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xe5\x92\x8c\xe9\xa1\xb9\xe7\x9b\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x9d\x83\xe9\x99\x90\xef\xbc\x8c\xe8\xbf\x99\xe6\xa0\xb7\xe8\xaf\xa5\xe7\x94\xa8\xe6\x88\xb7\xe6\xaf\x8f\xe6\xac\xa1\xe8\xae\xbf\xe9\x97\xae\xe6\x95\xb0\xe6\x8d\xae\xe6\x97\xb6\xef\xbc\x8c\xe9\x83\xbd\xe5\x8f\xaa\xe8\x83\xbd\xe5\xaf\xb9\xe5\x85\xb6\xe6\x8e\x88\xe6\x9d\x83\xe8\x8c\x83\xe5\x9b\xb4\xe5\x86\x85\xe7\x9a\x84\xe6\x95\xb0\xe6\x8d\xae\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x93\x8d\xe4\xbd\x9c\xe3\x80\x82\xe7\xae\xa1\xe7\x90\x86\xe8\xb4\xa6\xe5\x8f\xb7\xe4\xb8\x8d\xe8\x83\xbd\xe8\xbf\x9c\xe7\xa8\x8b\xe7\x99\xbb\xe9\x99\x86\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe7\xae\xa1\xe7\x90\x86\xe7\xb3\xbb\xe7\xbb\x9f\xef\xbc\x8c\xe7\xae\xa1\xe7\x90\x86\xe7\x9a\x84\xe7\xbb\xb4\xe6\x8a\xa4\xe5\x8f\xaa\xe8\x83\xbd\xe5\x9c\xa8\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe6\x89\x80\xe5\x9c\xa8\xe6\x9c\xba\xe5\x99\xa8\xe6\x9c\xac\xe5\x9c\xb0\xe8\xbf\x9b\xe8\xa1\x8c\xef\xbc\x8c\xe5\xba\x94\xe7\x94\xa8\xe6\x89\x80\xe4\xbd\xbf\xe7\x94\xa8\xe7\x9a\x84\xe8\xb4\xa6\xe5\x8f\xb7\xe5\x8d\x95\xe7\x8b\xac\xe5\x88\x86\xe9\x85\x8d\xe8\xbf\x9c\xe7\xa8\x8b\xe8\xae\xbf\xe9\x97\xaeNL\xef\xbc\x8c\xe5\xb9\xb6\xe8\xbf\x9b\xe8\xa1\x8c\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe3\x80\x81\xe8\xa1\xa8\xe7\x9a\x84\xe6\x9d\x83\xe9\x99\x90\xe6\x8e\xa7\xe5\x88\xb6\xe3\x80\x82","children":[]}]}]}]}'127.0.0.1 - - [04/May/2022 15:42:37] "POST /requirement/analyze/relationship HTTP/1.0" 200 -
+127.0.0.1 - - [04/May/2022 15:49:04] "POST /login HTTP/1.0" 200 -

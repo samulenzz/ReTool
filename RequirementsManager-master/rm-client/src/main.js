@@ -9,7 +9,7 @@ import './assets/css/global.css'
 import axios from 'axios'
 
 // 配置URL
-axios.defaults.baseURL = 'http://127.0.0.1:5000'
+// axios.defaults.baseURL = 'http://127.0.0.1:5000'
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
