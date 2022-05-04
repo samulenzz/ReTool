@@ -1,4 +1,5 @@
 from gateway.router.usermanager.login import login
+from gateway.router.usermanager.register import register
 from gateway.router.usermanager.user.create import user_create
 from gateway.router.usermanager.user.delete import user_delete
 from gateway.router.usermanager.user.edit import user_edit
