@@ -10,7 +10,7 @@ META_SUCCESS = {'status': 200, 'msg': '成功！'}
 
 @app.route('/user/list_all', methods=['GET'])
 @handle_response
-def user_list():
+def user_list_all():
     # 获取所有用户信息
     user_list_mongodb_dao = UserListMongoDBDao(user_collection)
     users = user_list_mongodb_dao.get_all_users()

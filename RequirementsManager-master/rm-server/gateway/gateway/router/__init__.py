@@ -5,6 +5,7 @@ from gateway.router.usermanager.user.delete import user_delete
 from gateway.router.usermanager.user.edit import user_edit
 from gateway.router.usermanager.user.profile import user_profile
 from gateway.router.usermanager.user.list import user_list
+from gateway.router.usermanager.user.list_all import user_list_all
 
 from gateway.router.projectmanager.project.create import project_create
 from gateway.router.projectmanager.project.delete import project_delete
