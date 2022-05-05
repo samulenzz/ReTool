@@ -12,11 +12,6 @@
     <el-card class="box-card">
       <!-- 顶部搜索添加区 -->
       <el-row :gutter="20">
-        <el-col :span="8">
-          <el-input placeholder="请输入项目名称关键字" class="input">
-            <el-button slot="append" icon="el-icon-search"></el-button>
-          </el-input>
-        </el-col>
         <el-col :span="4">
           <el-button type="primary" @click="addProject()">创建项目</el-button>
         </el-col>
