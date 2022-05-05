@@ -150,7 +150,7 @@ export default {
     async getUserList () {
       const { data: res } = await this.$http({
         method: 'get',
-        url: '/user/list',
+        url: '/user/list_all',
         headers: {
           'Authorization': window.sessionStorage.getItem('token')
         }
