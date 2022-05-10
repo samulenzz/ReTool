@@ -2,7 +2,7 @@ import json
 import pytest
 import requests
 
-from projectmanager.api.project.baseline.node.create import META_SUCCESS
+from projectmanager.api.project.baseline.node.create import META_SUCCESS, META_ERROR
 from projectmanager.utils.handle_api import META_ERROR_NO_PROJECT, META_ERROR_NO_ACCESS
 
 from .config import BASE_URL
@@ -27,7 +27,7 @@ class TestProjectBaselineNodeCreate:
 
     def test_create_successful(self):
         headers = {"Client-Username": "admin", "Authorization": self.admin_token}
-        payload = {"project_id": self.project_id, 'name': 'v1.0', 'description': '需求1.0'}
+        payload = {"project_id": "cf0cce1bd00d11ecb9c73c7c3f2b2c02", 'name': 'v1.0', 'description': '需求1.0'}
         r = requests.post(url, headers=headers, json=payload)
         assert r.status_code == 200
         results = json.loads(r.content)
@@ -43,14 +43,23 @@ class TestProjectBaselineNodeCreate:
         assert results['meta'] == META_ERROR_NO_PROJECT
         print('4.2.9-2')
 
+    def test_requirement_empty(self):
+        headers = {"Client-Username": "admin", "Authorization": self.admin_token}
+        payload = {"project_id": self.project_id, 'name': 'v1.0', 'description': '需求1.0'}
+        r = requests.post(url, headers=headers, json=payload)
+        assert r.status_code == 200
+        results = json.loads(r.content)
+        assert results['meta'] == META_ERROR
+        print('4.2.9-3')
+
     def test_system_role(self):
         headers = {"Client-Username": "liuzh", "Authorization": self.liuzh_token}
         payload = {"project_id": self.project_id, 'name': 'v1.0', 'description': '需求1.0'}
-        r = requests.delete(url, headers=headers, json=payload)
+        r = requests.post(url, headers=headers, json=payload)
         assert r.status_code == 200
         results = json.loads(r.content)
         assert results['meta'] == META_ERROR_NO_ACCESS
-        print('4.2.9-3')
+        print('4.2.9-4')
 
     def teardown_class(self):
         from .test_project_delete import delete_test_project
