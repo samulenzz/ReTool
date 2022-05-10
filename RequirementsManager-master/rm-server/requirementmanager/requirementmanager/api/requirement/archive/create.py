@@ -17,6 +17,7 @@ from requirementmanager.utils.handle_api import handle_response
 
 
 META_SUCCESS = {'status': 200, 'msg': '创建成功！'}
+META_ERROR = {'status': 400, 'msg': '创建失败！当前项目没有需求'}
 
 
 @app.route('/requirement/archive/create', methods=['POST'])
@@ -41,6 +42,11 @@ def requirement_archive_create():
 
     # 根据project id获取所有需求
     reqs = requirement_list_dao.get_requirement_list(project_id=project_id)
+    if len(reqs) == 0:
+        return {
+            'meta': META_ERROR
+        }
+
     archive_reqs = [
         ArchiveRequirement.import_requirement(req, version) for req in reqs
     ]
