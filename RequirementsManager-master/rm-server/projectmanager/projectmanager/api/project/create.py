@@ -43,5 +43,6 @@ def project_create():
     # 初始化基线
     baseline_dao.create(project._id)
     return {
+        'project_id': project._id,
         'meta': META_SUCCESS
     }
