@@ -55,5 +55,7 @@ class RequirementManagerHttpClient(HttpClient):
         if status_code != 200:
             raise RuntimeError('Create Archive Requirement Failed!')
 
+        return resp_body
+
 
 requirementmanager_http_client = RequirementManagerHttpClient(REQUIREMENT_MANAGER_URL)
