@@ -16,12 +16,15 @@
           <el-input v-model="loginForm.password" prefix-icon="el-icon-lock" placeholder="请输入密码" clearable type="password"></el-input>
         </el-form-item>
         <!-- 按钮 -->
-        <el-form-item class="login-buttons">
+        <el-form-item class="login-buttons" style="float:right;">
           <el-button type="primary" @click="login">登录</el-button>
+        </el-form-item>
+        <el-form-item class="login-buttons" style="float:left;">
+          <el-button type="primary" @click="handleRegister()">注册</el-button>
         </el-form-item>
       </el-form>
       <!-- 注册表单 -->
-      <el-button type="primary" @click="handleRegister()">注册</el-button>
+<!--       <el-button type="primary" @click="handleRegister()">注册</el-button>-->
     </div>
 
     <!-- 对话框区 -->
