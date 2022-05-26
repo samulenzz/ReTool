@@ -61,11 +61,11 @@
               </el-select>
             </el-form-item>
             <el-form-item label="预计开始时间">
-              <el-date-picker v-model="requirementBasicForm.expectedStartTime" type="date" placeholder="选择日期">
+              <el-date-picker v-model="requirementBasicForm.expectedStartTime" type="date" placeholder="选择日期" :picker-options="startTime1">
               </el-date-picker>
             </el-form-item>
             <el-form-item label="预计结束时间">
-              <el-date-picker v-model="requirementBasicForm.expectedEndTime" type="date" placeholder="选择日期">
+              <el-date-picker v-model="requirementBasicForm.expectedEndTime" type="date" placeholder="选择日期" :picker-options="endTime1">
               </el-date-picker>
             </el-form-item>
             <el-form-item>
@@ -189,6 +189,28 @@ export default {
         priority: '',
         expectedStartTime: '',
         expectedEndTime: ''
+      },
+      startTime1: {
+        disabledDate: time => {
+          // 如果已经已知结束日期，就把结束日期之后的日期禁用
+          if (this.requirementBasicForm.expectedEndTime) {
+            return (
+              time.getTime() > new Date(this.requirementBasicForm.expectedEndTime).getTime()
+            )
+          } else { // 否则 就把当前日期之前的日期禁用掉
+            return time.getTime() <= Date.now()
+          }
+        }
+      },
+      endTime1: {
+        disabledDate: time => {
+          // 如果已知开始日期，就把开始日期之前的日期禁用掉
+          if (this.requirementBasicForm.expectedStartTime) {
+            return (
+              time.getTime() < new Date(this.requirementBasicForm.expectedStartTime).getTime()
+            )
+          }
+        }
       },
       requirementMainFormRules: {
         name: [

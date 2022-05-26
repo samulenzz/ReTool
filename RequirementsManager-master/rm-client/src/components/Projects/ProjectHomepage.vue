@@ -32,7 +32,7 @@
           <el-button type="warning" icon="el-icon-sort" plain round
           @click="handleMoveRequirement()" style="margin-left: 10px;">移动</el-button>
           <!--- 删除按钮 -->
-          <el-button type="danger" icon="el-icon-sort" plain round
+          <el-button type="danger" icon="el-icon-delete" plain round
           @click="deleteRequirement()">删除</el-button>
         </el-col>
       </el-row>
